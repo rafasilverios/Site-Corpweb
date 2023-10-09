@@ -1,36 +1,75 @@
+import React, { useState } from 'react'
 import BotaoMenu from '../../Components/Layouts/BotaoMenu'
 import Logo from '../../Components/Layouts/Logo'
 import { Header, MenuConfig, UlConfig } from './style'
 
-const Menu = () => (
-  <Header>
-    <MenuConfig>
-      <div>
-        <h1>
-          <Logo />
-        </h1>
-      </div>
-      <nav>
-        <UlConfig>
-          <li>
-            <BotaoMenu href="#">Início</BotaoMenu>
-          </li>
-          <li>
-            <BotaoMenu href="#">Sobre</BotaoMenu>
-          </li>
-          <li>
-            <BotaoMenu href="#">Vantagens</BotaoMenu>
-          </li>
-          <li>
-            <BotaoMenu href="#">Orçamento</BotaoMenu>
-          </li>
-          <li>
-            <BotaoMenu href="#">Contato</BotaoMenu>
-          </li>
-        </UlConfig>
-      </nav>
-    </MenuConfig>
-  </Header>
-)
+const Menu = () => {
+  const [activeButton, setActiveButton] = useState<number | null>(null)
+
+  const handleButtonClick = (index: number) => {
+    setActiveButton(index)
+  }
+
+  return (
+    <Header>
+      <MenuConfig>
+        <div>
+          <h1>
+            <Logo />
+          </h1>
+        </div>
+        <nav>
+          <UlConfig>
+            <li>
+              <BotaoMenu
+                href="#"
+                isActive={activeButton === 0}
+                onClick={() => handleButtonClick(0)}
+              >
+                Início
+              </BotaoMenu>
+            </li>
+            <li>
+              <BotaoMenu
+                href="#"
+                isActive={activeButton === 1}
+                onClick={() => handleButtonClick(1)}
+              >
+                Sobre
+              </BotaoMenu>
+            </li>
+            <li>
+              <BotaoMenu
+                href="#"
+                isActive={activeButton === 2}
+                onClick={() => handleButtonClick(2)}
+              >
+                Vantagens
+              </BotaoMenu>
+            </li>
+            <li>
+              <BotaoMenu
+                href="#"
+                isActive={activeButton === 3}
+                onClick={() => handleButtonClick(3)}
+              >
+                Orçamento
+              </BotaoMenu>
+            </li>
+            <li>
+              <BotaoMenu
+                href="#"
+                isActive={activeButton === 4}
+                onClick={() => handleButtonClick(4)}
+              >
+                Contato
+              </BotaoMenu>
+            </li>
+          </UlConfig>
+        </nav>
+      </MenuConfig>
+    </Header>
+  )
+}
 
 export default Menu

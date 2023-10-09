@@ -1,12 +1,18 @@
-import { BotaoMenuEstilo } from './style'
+import { BotaoMenuEstilo } from './styles'
 
-export type Props = {
+type BotaoMenuProps = {
   children: string
   href: string
+  isActive: boolean
+  onClick: () => void
 }
 
-const BotaoMenu = ({ children, href }: Props) => (
-  <BotaoMenuEstilo href={href}>{children}</BotaoMenuEstilo>
-)
+const BotaoMenu = ({ children, href, isActive, onClick }: BotaoMenuProps) => {
+  return (
+    <BotaoMenuEstilo href={href} isActive={isActive} onClick={onClick}>
+      {children}
+    </BotaoMenuEstilo>
+  )
+}
 
 export default BotaoMenu

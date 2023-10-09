@@ -1,7 +1,7 @@
 import { ImgLogo } from './styles'
 
 const Logo = () => (
-  <ImgLogo src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/ZDF_logo%21_Logo_2021.svg/1200px-ZDF_logo%21_Logo_2021.svg.png" />
+  <ImgLogo src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/corpweb-logo.png" />
 )
 
 export default Logo
