@@ -7,6 +7,10 @@ const EstiloGlobal = createGlobalStyle`
     font-family: 'Inter', sans-serif;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   .container {
     max-width: 1200px;
     display: flex;

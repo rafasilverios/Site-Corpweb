@@ -5,14 +5,14 @@ type BotaoMenuProps = {
 }
 
 export const BotaoMenuEstilo = styled.a<BotaoMenuProps>`
-  height: 100px;
+  height: 90px;
   padding: 0 24px;
   color: #f9f5e7;
   font-size: 18px;
   font-weight: 300;
   text-decoration: none;
   display: block;
-  line-height: 100px;
+  line-height: 90px;
   position: relative;
   transition: color 0.3s;
 
@@ -21,8 +21,7 @@ export const BotaoMenuEstilo = styled.a<BotaoMenuProps>`
     position: absolute;
     bottom: 0;
     left: 0;
-    width: ${({ isActive }) =>
-      isActive ? '100%' : '0'}; /* Alterado para controlar a largura */
+    width: ${({ isActive }) => (isActive ? '100%' : '0')};
     height: 5px;
     background-color: #ffa928;
     transition: width 0.3s ease-in-out;

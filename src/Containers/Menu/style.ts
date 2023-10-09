@@ -7,15 +7,16 @@ export const Header = styled.header`
   right: 0;
   width: 100%;
   z-index: 1;
+  position: fixed;
 `
 
 export const MenuConfig = styled.div`
-  max-width: 1200px;
-  height: 100px;
+  height: 90px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+  z-index: 3;
 `
 
 export const UlConfig = styled.ul`
