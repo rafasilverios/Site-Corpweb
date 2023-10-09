@@ -9,7 +9,6 @@ function App() {
       <EstiloGlobal />
       <Menu />
       <Hero id="inicio" />
-      {/* <Container></Container> */}
     </>
   )
 }

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import BotaoMenu from '../../Components/Layouts/BotaoMenu'
-import Logo from '../../Components/Layouts/Logo'
+import BotaoMenu from '../../Components/Layouts/Menu/BotaoMenu'
+import Logo from '../../Components/Layouts/Menu/Logo'
 import { Header, MenuConfig, UlConfig } from './style'
 import Container from '../../Components/Layouts/ContainerEstilo'
 

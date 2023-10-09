@@ -1,11 +1,11 @@
 import { ReactNode } from 'react'
 import { ContainerEstilo } from './styles'
 
-export type Props = {
+export type ContainerProps = {
   children: ReactNode
 }
 
-const Container = (props: Props) => (
+const Container = (props: ContainerProps) => (
   <ContainerEstilo>{props.children}</ContainerEstilo>
 )
 
