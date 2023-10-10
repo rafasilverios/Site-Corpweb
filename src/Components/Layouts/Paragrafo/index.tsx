@@ -2,18 +2,18 @@ import { ParagrafoEstilo } from './styles'
 
 export type ParagrafoProps = {
   children: string
-  color?: string
+  tipo?: string
   fontSize?: number
   paddingTop?: string
 }
 
 const Paragrafo = ({
   children,
-  color,
+  tipo,
   fontSize,
   paddingTop
 }: ParagrafoProps) => (
-  <ParagrafoEstilo fontSize={fontSize} color={color} paddingTop={paddingTop}>
+  <ParagrafoEstilo fontSize={fontSize} tipo={tipo} paddingTop={paddingTop}>
     {children}
   </ParagrafoEstilo>
 )

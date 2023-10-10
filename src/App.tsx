@@ -1,14 +1,19 @@
 import EstiloGlobal from './styles'
 import Menu from './Containers/Menu'
-// import Container from './Components/Layouts/ContainerEstilo'
 import Hero from './Containers/Hero'
+import { ThemeProvider } from 'styled-components'
+import tema from './Themes/Tema'
+import Sobre from './Containers/Sobre'
 
 function App() {
   return (
     <>
-      <EstiloGlobal />
-      <Menu />
-      <Hero id="inicio" />
+      <ThemeProvider theme={tema}>
+        <EstiloGlobal />
+        <Menu />
+        <Hero id="inicio" />
+        <Sobre id="sobre" />
+      </ThemeProvider>
     </>
   )
 }

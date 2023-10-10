@@ -3,7 +3,18 @@ import { ParagrafoProps } from '.'
 
 export const ParagrafoEstilo = styled.p<ParagrafoProps>`
   font-size: ${(props) => (props.fontSize ? props.fontSize + 'px' : '18px')};
-  color: ${(props) => (props.color ? '#' + props.color : '#' + 'F9F5E7')};
+  color: ${(props) =>
+    props.tipo === 'principal'
+      ? props.theme.corFonteClara
+      : props.theme.corDeFundo};
   padding-top: ${(props) => props.paddingTop};
   font-weight: 300;
+
+  @media (max-width: 1300px) {
+    font-size: 18px;
+  }
+
+  @media (max-width: 1300px) {
+    font-size: 14px;
+  }
 `

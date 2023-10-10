@@ -1,11 +1,16 @@
 import { TituloEstilo } from './styles'
 
-type TituloProps = {
+export type TituloProps = {
   children: string
+  tipo?: string
+  fontSize?: number
+  maxWidth?: number
 }
 
-const TituloSite = ({ children }: TituloProps) => (
-  <TituloEstilo> {children} </TituloEstilo>
+const TituloSite = ({ children, fontSize, tipo, maxWidth }: TituloProps) => (
+  <TituloEstilo fontSize={fontSize} tipo={tipo} maxWidth={maxWidth}>
+    {children}
+  </TituloEstilo>
 )
 
 export default TituloSite

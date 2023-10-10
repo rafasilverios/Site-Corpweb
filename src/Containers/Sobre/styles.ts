@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
-export const HeroEstilo = styled.section`
-  min-height: 85vh;
-  padding: 4.25vw 0;
-  background-color: ${(props) => props.theme.corDeFundo};
+export const SobreEstilo = styled.section`
+  min-height: 630px;
+  padding: 130px 4.5vw;
+  background-color: #fff;
   display: flex;
   align-items: center;
   gap: 160px;
@@ -28,11 +28,4 @@ export const ConfigDisplayTexto = styled.div`
 
   @media (max-width: 820px) {
     padding: 0 30px;
-`
-
-export const Quadrado = styled.div`
-  height: 120px;
-  width: 20px;
-  background-color: #ffa928;
-  margin-bottom: 48px;
 `
