@@ -6,7 +6,7 @@ export const SobreEstilo = styled.section`
   background-color: #fff;
   display: flex;
   align-items: center;
-  gap: 160px;
+  gap: 40px;
 
   @media (max-width: 1300px) {
     gap: 80px;

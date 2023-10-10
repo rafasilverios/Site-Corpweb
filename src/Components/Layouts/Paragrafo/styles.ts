@@ -9,6 +9,7 @@ export const ParagrafoEstilo = styled.p<ParagrafoProps>`
       : props.theme.corDeFundo};
   padding-top: ${(props) => props.paddingTop};
   font-weight: 300;
+  max-width: 675px;
 
   @media (max-width: 1300px) {
     font-size: 18px;
