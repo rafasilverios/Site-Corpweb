@@ -1,12 +1,11 @@
 import styled from 'styled-components'
+import { SobreProps } from '.'
 
-export const SobreEstilo = styled.section`
-  min-height: 630px;
-  padding: 130px 4.5vw;
-  background-color: #fff;
+export const SobreEstilo = styled.section<SobreProps>`
+  background-color: ${(props) =>
+    props.backgroundColor ? props.backgroundColor : '#fff'};
   display: flex;
   align-items: center;
-  gap: 40px;
 
   @media (max-width: 1300px) {
     gap: 80px;

@@ -8,6 +8,7 @@ export const ParagrafoEstilo = styled.p<ParagrafoProps>`
       ? props.theme.corFonteClara
       : props.theme.corDeFundo};
   padding-top: ${(props) => props.paddingTop};
+  padding-bottom: ${(props) => props.paddingBottom};
   font-weight: 300;
   max-width: 675px;
 

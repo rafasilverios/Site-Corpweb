@@ -1,8 +1,10 @@
 import styled from 'styled-components'
 
 export const ContainerMaiorEstilo = styled.div`
+  width: 1480px;
   display: flex;
-  padding: 0 4.5vw;
+  gap: 40px;
+  padding: 130px 12vw;
   margin: 0 auto;
 `
 
