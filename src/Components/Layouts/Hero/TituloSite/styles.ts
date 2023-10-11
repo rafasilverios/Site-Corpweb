@@ -11,6 +11,7 @@ export const TituloEstilo = styled.h1<TituloProps>`
       : props.theme.corDeFundo};
   padding-bottom: ${(props) => props.paddingBottom};
   font-weight: ${(props) => (props.fontWeight ? props.fontWeight : 700)};
+  margin: ${(props) => props.margin};
 
   @media (max-width: 1300px) {
     font-size: 48px;

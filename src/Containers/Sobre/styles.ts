@@ -2,8 +2,10 @@ import styled from 'styled-components'
 import { SobreProps } from '.'
 
 export const SobreEstilo = styled.section<SobreProps>`
-  background-color: ${(props) =>
-    props.backgroundColor ? props.backgroundColor : '#fff'};
+  background: ${(props) =>
+    props.backgroundColor
+      ? props.backgroundColor
+      : 'linear-gradient(to right, #1d1f21 50%, #ffa928 50%);'};
   display: flex;
   align-items: center;
 

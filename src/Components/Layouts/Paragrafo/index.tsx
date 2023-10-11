@@ -6,6 +6,7 @@ export type ParagrafoProps = {
   fontSize?: number
   paddingTop?: string
   paddingBottom?: string
+  margin?: string
 }
 
 const Paragrafo = ({
@@ -13,13 +14,15 @@ const Paragrafo = ({
   tipo,
   fontSize,
   paddingTop,
-  paddingBottom
+  paddingBottom,
+  margin
 }: ParagrafoProps) => (
   <ParagrafoEstilo
     fontSize={fontSize}
     tipo={tipo}
     paddingTop={paddingTop}
     paddingBottom={paddingBottom}
+    margin={margin}
   >
     {children}
   </ParagrafoEstilo>

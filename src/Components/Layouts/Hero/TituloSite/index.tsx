@@ -7,6 +7,7 @@ export type TituloProps = {
   maxWidth?: number
   paddingBottom?: string
   fontWeight?: number
+  margin?: string
 }
 
 const TituloSite = ({
@@ -15,7 +16,8 @@ const TituloSite = ({
   tipo,
   maxWidth,
   paddingBottom,
-  fontWeight
+  fontWeight,
+  margin
 }: TituloProps) => (
   <TituloEstilo
     fontSize={fontSize}
@@ -23,6 +25,7 @@ const TituloSite = ({
     maxWidth={maxWidth}
     paddingBottom={paddingBottom}
     fontWeight={fontWeight}
+    margin={margin}
   >
     {children}
   </TituloEstilo>

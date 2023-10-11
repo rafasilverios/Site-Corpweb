@@ -13,7 +13,7 @@ export type SobreProps = {
 const Sobre = ({ id }: SobreProps) => {
   return (
     <>
-      <SobreEstilo id={id}>
+      <SobreEstilo id={id} backgroundColor="#fff">
         <ContainerMaior>
           <ConfigDisplayTexto>
             <Paragrafo tipo="secundario" paddingBottom="4px" fontSize={20}>
@@ -45,8 +45,8 @@ const Sobre = ({ id }: SobreProps) => {
           />
         </ContainerMaior>
       </SobreEstilo>
-      <SobreEstilo backgroundColor="#FFA928">
-        <MeiaTela tipo="secundario" padding="130px 65px 130px 12vw">
+      <SobreEstilo>
+        <MeiaTela tipo="secundario" padding="130px 0 130px 12vw">
           <ConfigDisplayTexto>
             <TituloSite
               tipo="principal"
@@ -54,10 +54,11 @@ const Sobre = ({ id }: SobreProps) => {
               maxWidth={550}
               paddingBottom="32px"
               fontWeight={500}
+              margin="0 65px 0 0"
             >
               Como construímos um Site para sua Empresa?
             </TituloSite>
-            <Paragrafo tipo="principal" fontSize={16}>
+            <Paragrafo tipo="principal" fontSize={16} margin="0 65px 0 0">
               Em nossa abordagem de criação de sites, priorizamos a sua visão e
               objetivos. Começamos por entender completamente as suas
               necessidades e metas. Isso nos permite criar um site personalizado
@@ -69,6 +70,9 @@ const Sobre = ({ id }: SobreProps) => {
               seu público.
             </Paragrafo>
           </ConfigDisplayTexto>
+        </MeiaTela>
+        <MeiaTela padding="130px 12vw 130px 0">
+          <Paragrafo margin="0 0 0 65px">Teste</Paragrafo>
         </MeiaTela>
       </SobreEstilo>
     </>
