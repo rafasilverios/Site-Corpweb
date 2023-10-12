@@ -6,7 +6,7 @@ export const SobreEstilo = styled.section<SobreProps>`
   background: ${(props) =>
     props.backgroundColor
       ? props.backgroundColor
-      : 'linear-gradient(to right, #1d1f21 50%, #ffa928 50%);'};
+      : 'linear-gradient(to right, #1d1f21 50%, #ffa928 50%)'};
   display: ${(props) => props.display};
   align-items: center;
   justify-content: ${(props) => props.justifyContent};
@@ -23,20 +23,24 @@ export const SobreEstilo = styled.section<SobreProps>`
     background: ${(props) =>
       props.backgroundColor
         ? props.backgroundColor
-        : 'linear-gradient(to bottom, #1d1f21 50%, #ffa928 50%);'};
+        : 'linear-gradient(to bottom, #1d1f21 50%, #ffa928 50%)'};
     flex-flow: column wrap;
+    align-items: center; /* Alinha o conteúdo verticalmente */
   }
+}
 `
+
 export const ConfigDisplayTexto = styled.div`
+  max-width: max-content;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
 
   @media (max-width: 820px) {
-    display: block;
     padding: 0 30px;
   }
 `
+
 export const DisplayFlexCenter = styled.div`
   display: flex;
   align-items: center;

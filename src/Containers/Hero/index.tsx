@@ -13,8 +13,8 @@ const Hero = ({ id }: HeroProps) => {
   return (
     <HeroEstilo id={id}>
       <ImgBody
-        width="860px"
-        scr="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/print-lux-ergonomia.PNG"
+        maxWidth="860px"
+        src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/print-lux-ergonomia.PNG"
       />
       <ConfigDisplayTexto>
         <Quadrado />

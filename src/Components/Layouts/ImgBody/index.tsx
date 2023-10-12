@@ -1,12 +1,16 @@
-import { ImgBodyEstilo } from './styles'
+import { ImgBodyEstilo, Img } from './styles'
 
-type ImgProps = {
-  scr: string
-  width?: string
+export type ImgProps = {
+  src?: string
+  maxWidth: string
 }
 
-const ImgBody = ({ scr, width }: ImgProps) => {
-  return <ImgBodyEstilo src={scr} width={width} />
+const ImgBody = ({ src, maxWidth }: ImgProps) => {
+  return (
+    <ImgBodyEstilo maxWidth={maxWidth}>
+      <Img src={src} />
+    </ImgBodyEstilo>
+  )
 }
 
 export default ImgBody
