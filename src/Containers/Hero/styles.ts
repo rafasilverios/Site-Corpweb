@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const HeroEstilo = styled.section`
-  min-height: 85vh;
+  min-height: 100vh;
   padding: 4.25vw 0;
   background-color: ${(props) => props.theme.corDeFundo};
   display: flex;

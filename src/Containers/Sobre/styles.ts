@@ -2,12 +2,14 @@ import styled from 'styled-components'
 import { SobreProps } from '.'
 
 export const SobreEstilo = styled.section<SobreProps>`
+  position: relative;
   background: ${(props) =>
     props.backgroundColor
       ? props.backgroundColor
       : 'linear-gradient(to right, #1d1f21 50%, #ffa928 50%);'};
-  display: flex;
+  display: ${(props) => props.display};
   align-items: center;
+  justify-content: ${(props) => props.justifyContent};
 
   @media (max-width: 1300px) {
     gap: 80px;
@@ -18,8 +20,11 @@ export const SobreEstilo = styled.section<SobreProps>`
   }
 
   @media (max-width: 820px) {
+    background: ${(props) =>
+      props.backgroundColor
+        ? props.backgroundColor
+        : 'linear-gradient(to bottom, #1d1f21 50%, #ffa928 50%);'};
     flex-flow: column wrap;
-    padding: 30vw 0 10vw 0;
   }
 `
 export const ConfigDisplayTexto = styled.div`
@@ -28,5 +33,29 @@ export const ConfigDisplayTexto = styled.div`
   justify-content: center;
 
   @media (max-width: 820px) {
+    display: block;
     padding: 0 30px;
+  }
+`
+export const DisplayFlexCenter = styled.div`
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 130px;
+
+  & > div {
+    width: 33.33%;
+    box-sizing: border-box;
+    padding: 0 15px;
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 1280px) {
+    justify-content: center;
+    margin-top: 100px;
+    padding-bottom: 65px;
+  }
+}
 `

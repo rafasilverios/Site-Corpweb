@@ -1,6 +1,6 @@
 import BotaoBody from '../../Components/Layouts/BotaoBody'
 import ArrowDown from '../../Components/Layouts/Hero/ArrowDown'
-import ImgBody from '../../Components/Layouts/Hero/ImgBody/index'
+import ImgBody from '../../Components/Layouts/ImgBody/index'
 import TituloSite from '../../Components/Layouts/Hero/TituloSite'
 import Paragrafo from '../../Components/Layouts/Paragrafo'
 import { ConfigDisplayTexto, HeroEstilo, Quadrado } from './styles'
