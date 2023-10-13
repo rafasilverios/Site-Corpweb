@@ -12,12 +12,25 @@ export const HeroEstilo = styled.section`
     gap: 80px;
   }
 
-  @media (max-width: 970px) {
+  @media (max-width: 1024px) {
     gap: 40px;
+    margin-top: 65px;
   }
 
   @media (max-width: 820px) {
     flex-flow: column wrap;
+    padding: 15vw 0 10vw 0;
+  }
+
+  @media (max-width: 768px) {
+    margin-top: 65px;
+  }
+
+  @media (max-width: 720px) {
+    padding: 20vw 0 10vw 0;
+  }
+
+  @media (max-width: 500px) {
     padding: 30vw 0 10vw 0;
   }
 `

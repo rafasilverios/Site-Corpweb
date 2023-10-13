@@ -17,7 +17,8 @@ export const ParagrafoEstilo = styled.p<ParagrafoProps>`
     font-size: 18px;
   }
 
-  @media (max-width: 1300px) {
+  @media (max-width: 768px) {
     font-size: 14px;
+    margin: 0;
   }
 `

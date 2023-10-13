@@ -8,6 +8,11 @@ export const ContainerMaiorEstilo = styled.div`
 
   @media (max-width: 820px) {
     display: block;
+    padding: 130px 0;
+  }
+
+  @media (max-width: 768px) {
+    padding: 65px 0;
   }
 `
 

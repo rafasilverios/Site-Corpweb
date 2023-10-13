@@ -6,5 +6,9 @@ export const ImgStackEstilo = styled.img<ImgStackProps>`
   background-color: ${(props) => props.theme.corFonteClara};
   width: 134px;
   height: auto;
-  margin-top: 32px;
+
+  @media (max-width: 768px) {
+    width: 100px;
+    margin-top: 0;
+  }
 `
