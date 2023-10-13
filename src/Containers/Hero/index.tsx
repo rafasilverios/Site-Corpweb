@@ -1,6 +1,6 @@
 import BotaoBody from '../../Components/Layouts/BotaoBody'
 import ArrowDown from '../../Components/Layouts/Hero/ArrowDown'
-import ImgBody from '../../Components/Layouts/ImgHero/index'
+import ImgHero from '../../Components/Layouts/ImgHero/index'
 import TituloSite from '../../Components/Layouts/Hero/TituloSite'
 import Paragrafo from '../../Components/Layouts/Paragrafo'
 import { ConfigDisplayTexto, HeroEstilo, Quadrado } from './styles'
@@ -12,8 +12,8 @@ type HeroProps = {
 const Hero = ({ id }: HeroProps) => {
   return (
     <HeroEstilo id={id}>
-      <ImgBody
-        maxWidth="860px"
+      <ImgHero
+        width="860px"
         src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/print-lux-ergonomia.PNG"
       />
       <ConfigDisplayTexto>

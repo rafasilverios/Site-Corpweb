@@ -1,16 +1,12 @@
-import { ImgHeroEstilo, Img } from './styles'
+import { ImgHeroEstilo } from './styles'
 
-export type ImgProps = {
-  src?: string
-  maxWidth: string
+type ImgProps = {
+  src: string
+  width?: string
 }
 
-const ImgHero = ({ src, maxWidth }: ImgProps) => {
-  return (
-    <ImgHeroEstilo maxWidth={maxWidth}>
-      <Img src={src} />
-    </ImgHeroEstilo>
-  )
+const ImgHero = ({ src, width }: ImgProps) => {
+  return <ImgHeroEstilo src={src} width={width} />
 }
 
 export default ImgHero

@@ -141,14 +141,14 @@ const Sobre = ({ id }: SobreProps) => {
               <DivRetanguloMenor>
                 <ImgBody
                   src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/search.jpg"
-                  maxWidth="100%"
+                  width="100%"
                 />
               </DivRetanguloMenor>
             </DivRetangulos>
             <DivRetangulos backgroundColor={theme.corSecundaria}>
               <ImgBody
                 src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/009ad2bec1fe33f3ee6a799a016c5a4d4c49a5df/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/vetor-site-pessoa.svg"
-                maxWidth="100%"
+                width="100%"
               />
             </DivRetangulos>
             <DivRetangulos>
