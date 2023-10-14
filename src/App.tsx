@@ -5,6 +5,7 @@ import { ThemeProvider } from 'styled-components'
 import tema from './Themes/Tema'
 import Sobre from './Containers/Sobre'
 import Vantagens from './Containers/Vantagens'
+import Orcamento from './Containers/Orcamento'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Hero id="inicio" />
         <Sobre id="sobre" />
         <Vantagens id="vantagens" />
+        <Orcamento id="orcamento" />
       </ThemeProvider>
     </>
   )

@@ -1,4 +1,3 @@
-import { useTheme } from 'styled-components'
 import ContainerMaior from '../../Components/Layouts/ContainerMaior'
 import ImgLines from '../../Components/Layouts/ImgLines'
 import ImgStack from '../../Components/Layouts/ImgStack'
@@ -36,7 +35,6 @@ export type SobreProps = {
 }
 
 const Sobre = ({ id }: SobreProps) => {
-  const theme = useTheme()
   return (
     <>
       <SobreEstilo
@@ -134,7 +132,7 @@ const Sobre = ({ id }: SobreProps) => {
           <DisplayGrid>
             <DivRetangulos backgroundColor="transparent">
               <DivRetanguloMenor textAlign="center" marginBottom="20px">
-                <TituloH3 maxWidth={300}>
+                <TituloH3 maxWidth={300} tipo="secundario">
                   Sua empresa será vista e lembrada!
                 </TituloH3>
               </DivRetanguloMenor>
@@ -145,7 +143,7 @@ const Sobre = ({ id }: SobreProps) => {
                 />
               </DivRetanguloMenor>
             </DivRetangulos>
-            <DivRetangulos backgroundColor={theme.corSecundaria}>
+            <DivRetangulos>
               <ImgSobre
                 maxWidth="100%"
                 src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/009ad2bec1fe33f3ee6a799a016c5a4d4c49a5df/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/vetor-site-pessoa.svg"

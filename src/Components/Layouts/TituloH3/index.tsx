@@ -5,9 +5,10 @@ export type TituloH3Props = {
   tipo?: string
   fontSize?: number
   maxWidth?: number
-  paddingBottom?: string
+  padding?: string
   fontWeight?: number
   margin?: string
+  backgroundColor?: string
 }
 
 const TituloH3 = ({
@@ -15,17 +16,19 @@ const TituloH3 = ({
   fontSize,
   tipo,
   maxWidth,
-  paddingBottom,
+  padding: paddingBottom,
   fontWeight,
-  margin
+  margin,
+  backgroundColor
 }: TituloH3Props) => (
   <TituloH3Estilo
     fontSize={fontSize}
     tipo={tipo}
     maxWidth={maxWidth}
-    paddingBottom={paddingBottom}
+    padding={paddingBottom}
     fontWeight={fontWeight}
     margin={margin}
+    backgroundColor={backgroundColor}
   >
     {children}
   </TituloH3Estilo>

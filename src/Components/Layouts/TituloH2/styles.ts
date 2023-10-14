@@ -12,13 +12,14 @@ export const TituloH2Estilo = styled.h2<TituloH2Props>`
   padding-bottom: ${(props) => props.paddingBottom};
   font-weight: ${(props) => (props.fontWeight ? props.fontWeight : 700)};
   margin: ${(props) => props.margin};
+  backgorund-color: ${(props) => props.backgroundColor};
 
   @media (max-width: 1300px) {
-    font-size: 24px;
+    font-size: 36px;
   }
 
   @media (max-width: 768px) {
-    font-size: 20px;
+    font-size: 28px;
     margin: 0;
   }
 `

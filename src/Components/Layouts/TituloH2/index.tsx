@@ -8,6 +8,7 @@ export type TituloH2Props = {
   paddingBottom?: string
   fontWeight?: number
   margin?: string
+  backgroundColor?: string
 }
 
 const TituloH2 = ({
@@ -17,7 +18,8 @@ const TituloH2 = ({
   maxWidth,
   paddingBottom,
   fontWeight,
-  margin
+  margin,
+  backgroundColor
 }: TituloH2Props) => (
   <TituloH2Estilo
     fontSize={fontSize}
@@ -26,6 +28,7 @@ const TituloH2 = ({
     paddingBottom={paddingBottom}
     fontWeight={fontWeight}
     margin={margin}
+    backgroundColor={backgroundColor}
   >
     {children}
   </TituloH2Estilo>

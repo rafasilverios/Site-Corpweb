@@ -68,7 +68,7 @@ export const DisplayFlexCenter = styled.div`
 }
 `
 
-export const DisplayGrid = styled.div<SobreProps>`
+export const DisplayGrid = styled.div`
   display: flex;
   gap: 20px;
   justify-content: center;
@@ -91,7 +91,7 @@ export const DivRetangulos = styled.div<SobreProps>`
   height: 460px;
   text-align: ${(props) => props.textAlign};
   background-color: ${(props) =>
-    props.backgroundColor ? props.backgroundColor : props.theme.corFonteClara};
+    props.backgroundColor ? props.backgroundColor : props.theme.corDeFundo};
   align-items: center;
   justify-content: center;
 
@@ -125,7 +125,8 @@ export const DivRetanguloMenor = styled.div<SobreProps>`
   height: 100%;
   text-align: ${(props) => props.textAlign};
   margin-bottom: ${(props) => props.marginBottom};
-  background-color: ${(props) => props.theme.corFonteClara};
+  background-color: ${(props) =>
+    props.backgroundColor ? props.backgroundColor : props.theme.corDeFundo};
   display: flex;
   align-items: center;
   justify-content: center;
@@ -134,7 +135,7 @@ export const DivRetanguloMenor = styled.div<SobreProps>`
 
 export const TextoBusca = styled.p<SobreProps>`
   font-size: 20px;
-  color: ${(props) => props.theme.corDeFundo};
+  color: ${(props) => props.theme.corFonteClara};
   font-weight: 300;
   margin: 42px;
 
