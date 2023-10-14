@@ -7,7 +7,7 @@ export const TituloH3Estilo = styled.h3<TituloH3Props>`
   font-size: ${(props) => (props.fontSize ? props.fontSize + 'px' : '28px')};
   color: ${(props) =>
     props.tipo === 'principal'
-      ? props.theme.corFonteClara
+      ? props.theme.corDeFundoBotao
       : props.theme.corDeFundo};
   padding-bottom: ${(props) => props.paddingBottom};
   font-weight: ${(props) => (props.fontWeight ? props.fontWeight : 700)};

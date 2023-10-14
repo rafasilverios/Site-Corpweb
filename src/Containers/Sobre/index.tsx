@@ -1,6 +1,5 @@
 import { useTheme } from 'styled-components'
 import ContainerMaior from '../../Components/Layouts/ContainerMaior'
-import ImgBody from '../../Components/Layouts/ImgHero/index'
 import ImgLines from '../../Components/Layouts/ImgLines'
 import ImgStack from '../../Components/Layouts/ImgStack'
 import Paragrafo from '../../Components/Layouts/Paragrafo'
@@ -18,6 +17,7 @@ import Container from '../../Components/Layouts/ContainerEstilo'
 import TituloH2 from '../../Components/Layouts/TituloH2'
 import TituloH3 from '../../Components/Layouts/TituloH3'
 import ImgSobre from '../../Components/Layouts/ImgSobre'
+import ImgHero from '../../Components/Layouts/ImgHero/index'
 
 export type SobreProps = {
   id?: string
@@ -139,16 +139,16 @@ const Sobre = ({ id }: SobreProps) => {
                 </TituloH3>
               </DivRetanguloMenor>
               <DivRetanguloMenor>
-                <ImgBody
+                <ImgHero
                   src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/search.jpg"
                   width="100%"
                 />
               </DivRetanguloMenor>
             </DivRetangulos>
             <DivRetangulos backgroundColor={theme.corSecundaria}>
-              <ImgBody
+              <ImgSobre
+                maxWidth="100%"
                 src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/009ad2bec1fe33f3ee6a799a016c5a4d4c49a5df/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/vetor-site-pessoa.svg"
-                width="100%"
               />
             </DivRetangulos>
             <DivRetangulos>

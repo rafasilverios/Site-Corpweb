@@ -42,7 +42,7 @@ const Menu = () => {
               </li>
               <li>
                 <BotaoMenu
-                  href="#"
+                  href="#vantagens"
                   isActive={activeButton === 2}
                   onClick={() => handleButtonClick(2)}
                 >

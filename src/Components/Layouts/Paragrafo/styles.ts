@@ -12,6 +12,7 @@ export const ParagrafoEstilo = styled.p<ParagrafoProps>`
   font-weight: 300;
   max-width: 675px;
   margin: ${(props) => props.margin};
+  font-weight: ${(props) => props.fontWeight};
 
   @media (max-width: 1300px) {
     font-size: 18px;

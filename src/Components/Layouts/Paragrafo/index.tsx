@@ -7,6 +7,7 @@ export type ParagrafoProps = {
   paddingTop?: string
   paddingBottom?: string
   margin?: string
+  fontWeight?: string
 }
 
 const Paragrafo = ({
@@ -15,7 +16,8 @@ const Paragrafo = ({
   fontSize,
   paddingTop,
   paddingBottom,
-  margin
+  margin,
+  fontWeight
 }: ParagrafoProps) => (
   <ParagrafoEstilo
     fontSize={fontSize}
@@ -23,6 +25,7 @@ const Paragrafo = ({
     paddingTop={paddingTop}
     paddingBottom={paddingBottom}
     margin={margin}
+    fontWeight={fontWeight}
   >
     {children}
   </ParagrafoEstilo>

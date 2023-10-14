@@ -25,4 +25,9 @@ export const ImgHeroEstilo = styled.img`
     width: 320px;
     height: auto;
   }
+
+  @media (max-width: 300px) {
+    width: 250px;
+    height: auto;
+  }
 `
