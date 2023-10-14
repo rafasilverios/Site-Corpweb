@@ -145,7 +145,7 @@ const BoxProfissional = () => {
         width="100%"
         position="absolute"
         bottom={0}
-        margin="0"
+        margin="10px 0 0 0"
       >
         Quero este!
       </BotaoBody>

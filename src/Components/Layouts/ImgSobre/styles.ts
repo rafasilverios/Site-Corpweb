@@ -28,10 +28,6 @@ export const Img = styled.img`
     width: 500px;
   }
 
-  @media (max-width: 820px) {
-    margin-top: 65px;
-  }
-
   @media (max-width: 768px) {
     width: 450px;
   }

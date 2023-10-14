@@ -10,10 +10,6 @@ export const ContainerMaiorEstilo = styled.div`
     display: block;
     padding: 130px 0;
   }
-
-  @media (max-width: 768px) {
-    padding: 65px 0;
-  }
 `
 
 export default ContainerMaiorEstilo
