@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const DisplayNoneEstilo = styled.div`
-  @media (max-width: 906px) {
+  @media (max-width: 820px) {
     display: none;
   }
 `

@@ -8,6 +8,10 @@ export const Header = styled.header`
   width: 100%;
   z-index: 1;
   position: fixed;
+
+  @media (max-width: 820px) {
+    max-height: 70px;
+  }
 `
 
 export const MenuConfig = styled.div`
@@ -17,6 +21,10 @@ export const MenuConfig = styled.div`
   align-items: center;
   margin: 0 auto;
   z-index: 3;
+
+  @media (max-width: 820px) {
+    max-height: 70px;
+  }
 `
 
 export const UlConfig = styled.ul`
