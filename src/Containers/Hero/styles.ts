@@ -31,7 +31,7 @@ export const HeroEstilo = styled.section`
   }
 
   @media (max-width: 500px) {
-    padding: 30vw 0 10vw 0;
+    padding: 130px 0 130px 0;
   }
 `
 export const ConfigDisplayTexto = styled.div`

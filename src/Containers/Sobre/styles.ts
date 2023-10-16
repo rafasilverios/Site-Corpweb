@@ -39,6 +39,10 @@ export const ConfigDisplayTexto = styled.div`
   @media (max-width: 820px) {
     padding: 0 30px;
   }
+
+  @media (max-width: 370px) {
+    padding: 0 16px;
+  }
 `
 
 export const DisplayFlexCenter = styled.div`
@@ -141,5 +145,9 @@ export const TextoBusca = styled.p<SobreProps>`
 
   @media (max-width: 1200px) {
     margin: 32px;
+  }
+
+  @media (max-width: 380px) {
+    margin: 16px;
   }
 `

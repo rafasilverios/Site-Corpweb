@@ -17,7 +17,7 @@ const Menu = () => {
         <MenuConfig>
           <div>
             <h1>
-              <Logo />
+              <Logo src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/corpweb-logo.png" />
             </h1>
           </div>
           <nav>
@@ -60,7 +60,7 @@ const Menu = () => {
               </li>
               <li>
                 <BotaoMenu
-                  href="#"
+                  href="#contato"
                   isActive={activeButton === 4}
                   onClick={() => handleButtonClick(4)}
                 >

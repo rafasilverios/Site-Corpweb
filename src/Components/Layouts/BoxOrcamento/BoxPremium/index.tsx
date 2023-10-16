@@ -36,7 +36,7 @@ const BoxPremium = () => {
             width={20}
             height={20}
           />
-          <Paragrafo tipo="principal" margin="0 0 0 8px" paddingBottom="12px">
+          <Paragrafo tipo="principal" paddingBottom="12px">
             Site ultra rápido e responsivo
           </Paragrafo>
         </BoxItem>
@@ -47,7 +47,7 @@ const BoxPremium = () => {
             width={20}
             height={20}
           />
-          <Paragrafo tipo="principal" margin="0 0 0 8px" paddingBottom="10px">
+          <Paragrafo tipo="principal" paddingBottom="10px">
             Ótima pontuação no google
           </Paragrafo>
         </BoxItem>
@@ -58,7 +58,7 @@ const BoxPremium = () => {
             width={20}
             height={20}
           />
-          <Paragrafo tipo="principal" margin="0 0 0 8px" paddingBottom="10px">
+          <Paragrafo tipo="principal" paddingBottom="10px">
             Certificado SSL de segurança
           </Paragrafo>
         </BoxItem>
@@ -69,7 +69,7 @@ const BoxPremium = () => {
             width={20}
             height={20}
           />
-          <Paragrafo tipo="principal" margin="0 0 0 8px" paddingBottom="10px">
+          <Paragrafo tipo="principal" paddingBottom="10px">
             Design 100% exclusivo para sua empresa
           </Paragrafo>
         </BoxItem>
@@ -80,7 +80,7 @@ const BoxPremium = () => {
             width={20}
             height={20}
           />
-          <Paragrafo tipo="principal" margin="0 0 0 8px" paddingBottom="10px">
+          <Paragrafo tipo="principal" paddingBottom="10px">
             10 contas de E-mail Profissional
           </Paragrafo>
         </BoxItem>
@@ -91,7 +91,7 @@ const BoxPremium = () => {
             width={20}
             height={20}
           />
-          <Paragrafo tipo="principal" margin="0 0 0 8px" paddingBottom="10px">
+          <Paragrafo tipo="principal" paddingBottom="10px">
             Suporte pelo WhatsApp
           </Paragrafo>
         </BoxItem>
@@ -102,7 +102,7 @@ const BoxPremium = () => {
             width={20}
             height={20}
           />
-          <Paragrafo tipo="principal" margin="0 0 0 8px" paddingBottom="10px">
+          <Paragrafo tipo="principal" paddingBottom="10px">
             Provas de Layout adequar o site as suas
           </Paragrafo>
         </BoxItem>
@@ -113,7 +113,7 @@ const BoxPremium = () => {
             width={20}
             height={20}
           />
-          <Paragrafo tipo="principal" margin="0 0 0 8px" paddingBottom="10px">
+          <Paragrafo tipo="principal" paddingBottom="10px">
             Possibilidade de adicionar novas funcionalidades, ferramentas e
             conteúdos conforme necessidade
           </Paragrafo>
@@ -125,7 +125,7 @@ const BoxPremium = () => {
             width={20}
             height={20}
           />
-          <Paragrafo tipo="principal" margin="0 0 0 8px" paddingBottom="10px">
+          <Paragrafo tipo="principal" paddingBottom="10px">
             Seu site com as tecnologias usadas por Tesla, Airbnb, Uber,
             Microsoft, Facebook, etc
           </Paragrafo>
@@ -137,7 +137,7 @@ const BoxPremium = () => {
             width={20}
             height={20}
           />
-          <Paragrafo tipo="principal" margin="0 0 0 8px" paddingBottom="10px">
+          <Paragrafo tipo="principal" paddingBottom="10px">
             1 ano de domínio gratis
           </Paragrafo>
         </BoxItem>
@@ -148,7 +148,7 @@ const BoxPremium = () => {
             width={20}
             height={20}
           />
-          <Paragrafo tipo="principal" margin="0 0 0 8px" paddingBottom="10px">
+          <Paragrafo tipo="principal" paddingBottom="10px">
             1 ano de Hospedagem grátis
           </Paragrafo>
         </BoxItem>
@@ -159,7 +159,7 @@ const BoxPremium = () => {
             width={20}
             height={20}
           />
-          <Paragrafo tipo="principal" margin="0 0 0 8px" paddingBottom="10px">
+          <Paragrafo tipo="principal" paddingBottom="10px">
             Campanha inicial Google ADS grátis
           </Paragrafo>
         </BoxItem>
@@ -168,6 +168,8 @@ const BoxPremium = () => {
         href="https://wa.me/5541984424733?text=Ol%C3%A1%2C+tudo+bem%3F%0AEstou+interessado+no+%2APlano+Premium%2A+para+desenvolver+um+site+para+minha+empresa.+Seria+poss%C3%ADvel+fornecer+mais+informa%C3%A7%C3%B5es+sobre+os+detalhes+deste+plano+e+como+ele+pode+beneficiar+o+meu+neg%C3%B3cio%3F"
         target="_blank"
         width="100%"
+        position="absolute"
+        bottom={0}
         margin="10px 0 0 0"
       >
         Quero este!

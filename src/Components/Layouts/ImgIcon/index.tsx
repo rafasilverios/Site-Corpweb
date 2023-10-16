@@ -1,9 +1,12 @@
 import { ImgIconEstilo } from './styles'
 
-type ImgIconProps = {
+export type ImgIconProps = {
   src: string
+  width: string
 }
 
-const ImgIcon = ({ src }: ImgIconProps) => <ImgIconEstilo src={src} />
+const ImgIcon = ({ src, width }: ImgIconProps) => (
+  <ImgIconEstilo src={src} width={width} />
+)
 
 export default ImgIcon

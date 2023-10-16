@@ -7,7 +7,8 @@ export const ContainerMaiorEstilo = styled.div`
   padding: 130px 32px;
 
   @media (max-width: 820px) {
-    display: block;
+    flex-flow: column wrap;
+    align-items: center;
     padding: 130px 0;
   }
 `

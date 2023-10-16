@@ -6,6 +6,8 @@ import tema from './Themes/Tema'
 import Sobre from './Containers/Sobre'
 import Vantagens from './Containers/Vantagens'
 import Orcamento from './Containers/Orcamento'
+import Contato from './Containers/Contato'
+import Footer from './Containers/Footer'
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Sobre id="sobre" />
         <Vantagens id="vantagens" />
         <Orcamento id="orcamento" />
+        <Contato id="contato" />
+        <Footer id="footer" />
       </ThemeProvider>
     </>
   )

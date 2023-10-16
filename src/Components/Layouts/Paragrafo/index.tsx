@@ -1,7 +1,7 @@
 import { ParagrafoEstilo } from './styles'
 
 export type ParagrafoProps = {
-  children: string
+  children: React.ReactNode
   tipo?: string
   fontSize?: number
   paddingTop?: string

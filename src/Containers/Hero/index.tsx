@@ -25,7 +25,7 @@ const Hero = ({ id }: HeroProps) => {
         <Paragrafo tipo="principal" fontSize={20}>
           Nós transformaremos sua ideia em um site incrível. Vamos começar?
         </Paragrafo>
-        <BotaoBody href="#">Solicitar Orçamento</BotaoBody>
+        <BotaoBody href="#orcamento">Solicitar Orçamento</BotaoBody>
       </ConfigDisplayTexto>
       <ArrowDown></ArrowDown>
     </HeroEstilo>

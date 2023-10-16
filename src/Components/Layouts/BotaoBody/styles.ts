@@ -3,7 +3,7 @@ import { BotaoProps } from '.'
 
 export const BotaoEstilo = styled.a<BotaoProps>`
   margin: ${(props) => (props.margin ? props.margin : '32px 0 0 0')};
-  padding: 20px 16px;
+  padding: 16px;
   font-size: 24px;
   background-color: ${(props) => props.theme.corDeFundoBotao};
   color: ${(props) => props.theme.corFonteClara};

@@ -17,8 +17,9 @@ const Orcamento = ({ id }: OrcamentoProps) => (
         fontSize={48}
         fontWeight={500}
         paddingBottom="16px"
+        maxWidth={720}
       >
-        Orçamento
+        Solicite um Orçamento
       </TituloH2>
       <Paragrafo tipo="principal" paddingBottom="32px">
         Escolha a melhor opção para o site da sua empresa.

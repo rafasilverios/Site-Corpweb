@@ -12,7 +12,10 @@ const Vantagens = ({ id }: VantagensProps) => {
     <VantagensEstilo id={id}>
       <DisplayGridVantagens>
         <DivMaxWidth>
-          <ImgIcon src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/icons/visibilidade.png" />
+          <ImgIcon
+            width="58px"
+            src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/icons/visibilidade.png"
+          />
           <TituloH3
             tipo="principal"
             fontWeight={300}
@@ -28,7 +31,10 @@ const Vantagens = ({ id }: VantagensProps) => {
           </Paragrafo>
         </DivMaxWidth>
         <DivMaxWidth>
-          <ImgIcon src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/icons/acesso-global.png" />
+          <ImgIcon
+            width="58px"
+            src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/icons/acesso-global.png"
+          />
           <TituloH3
             tipo="principal"
             fontWeight={300}
@@ -44,7 +50,10 @@ const Vantagens = ({ id }: VantagensProps) => {
           </Paragrafo>
         </DivMaxWidth>
         <DivMaxWidth>
-          <ImgIcon src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/icons/credibilidade.png" />
+          <ImgIcon
+            width="58px"
+            src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/icons/credibilidade.png"
+          />
           <TituloH3
             tipo="principal"
             fontWeight={300}
@@ -60,7 +69,10 @@ const Vantagens = ({ id }: VantagensProps) => {
           </Paragrafo>
         </DivMaxWidth>
         <DivMaxWidth>
-          <ImgIcon src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/icons/marketing-eficiente.png" />
+          <ImgIcon
+            width="58px"
+            src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/icons/marketing-eficiente.png"
+          />
           <TituloH3
             tipo="principal"
             fontWeight={300}
@@ -76,7 +88,10 @@ const Vantagens = ({ id }: VantagensProps) => {
           </Paragrafo>
         </DivMaxWidth>
         <DivMaxWidth>
-          <ImgIcon src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/icons/comunicacao-direta-3.png" />
+          <ImgIcon
+            width="58px"
+            src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/icons/comunicacao-direta-3.png"
+          />
           <TituloH3
             tipo="principal"
             fontWeight={300}
@@ -92,7 +107,10 @@ const Vantagens = ({ id }: VantagensProps) => {
           </Paragrafo>
         </DivMaxWidth>
         <DivMaxWidth>
-          <ImgIcon src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/icons/analise-dados.png" />
+          <ImgIcon
+            width="58px"
+            src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/icons/analise-dados.png"
+          />
           <TituloH3
             tipo="principal"
             fontWeight={300}

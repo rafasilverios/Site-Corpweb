@@ -3,7 +3,6 @@ import styled from 'styled-components'
 export const BoxConteudoEstilo = styled.div`
   background-color: ${(props) => props.theme.corPrincipal};
   position: relative;
-  min-height: 492px;
 `
 
 export const BoxTitulo = styled.div`
@@ -11,9 +10,10 @@ export const BoxTitulo = styled.div`
 `
 
 export const BoxLista = styled.div`
-  padding: 24px;
+  padding: 24px 24px 90px;
 `
 
 export const BoxItem = styled.div`
   display: flex;
+  gap: 8px;
 `

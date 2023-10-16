@@ -132,7 +132,7 @@ const Sobre = ({ id }: SobreProps) => {
           <DisplayGrid>
             <DivRetangulos backgroundColor="transparent">
               <DivRetanguloMenor textAlign="center" marginBottom="20px">
-                <TituloH3 maxWidth={300} tipo="secundario">
+                <TituloH3 maxWidth={300} tipo="secundario" padding="16px">
                   Sua empresa será vista e lembrada!
                 </TituloH3>
               </DivRetanguloMenor>
