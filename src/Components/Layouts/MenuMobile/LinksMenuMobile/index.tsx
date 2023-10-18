@@ -4,7 +4,7 @@ const LinksMenuMobile = () => (
   <LinksMenuMobileEstilo>
     <ul>
       <li>
-        <a href="#inicio">Início</a>
+        <a href="#top">Início</a>
       </li>
       <li>
         <a href="#sobre">Sobre</a>

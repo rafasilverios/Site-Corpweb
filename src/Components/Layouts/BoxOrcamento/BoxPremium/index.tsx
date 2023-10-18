@@ -152,17 +152,6 @@ const BoxPremium = () => {
             1 ano de Hospedagem grátis
           </Paragrafo>
         </BoxItem>
-        <BoxItem>
-          <img
-            src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/icons/marca-de-verificacao2.png"
-            alt="Item disponível"
-            width={20}
-            height={20}
-          />
-          <Paragrafo tipo="principal" paddingBottom="10px">
-            Campanha inicial Google ADS grátis
-          </Paragrafo>
-        </BoxItem>
       </BoxLista>
       <BotaoBody
         href="https://wa.me/5541984424733?text=Ol%C3%A1%2C+tudo+bem%3F%0AEstou+interessado+no+%2APlano+Premium%2A+para+desenvolver+um+site+para+minha+empresa.+Seria+poss%C3%ADvel+fornecer+mais+informa%C3%A7%C3%B5es+sobre+os+detalhes+deste+plano+e+como+ele+pode+beneficiar+o+meu+neg%C3%B3cio%3F"

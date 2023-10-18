@@ -40,7 +40,7 @@ export const BotaoMenuEstilo = styled.a<BotaoMenuProps>`
   &.active {
     background-color: #3f4345;
     &::before {
-      width: 100%; /* A linha na base permanece após o clique */
+      width: 100%;
     }
   }
 `

@@ -1,17 +1,16 @@
 import styled from 'styled-components'
 
 export const LinksMenuMobileEstilo = styled.nav`
-  display: none;
   background-color: ${(props) => props.theme.corPrincipal};
-  padding: 48px;
+  padding: 16px 64px 48px;
   font-size: 18px;
   position: absolute;
-  top: 70px;
+  top: 100%;
   right: 0;
   text-align: center;
 
-  @media (max-width: 820px) {
-    display: block;
+  @media (min-width: 820px) {
+    display: none;
   }
 
   & ul {

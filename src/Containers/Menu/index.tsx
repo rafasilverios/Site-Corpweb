@@ -5,7 +5,6 @@ import { Header, MenuConfig, UlConfig } from './style'
 import Container from '../../Components/Layouts/ContainerEstilo'
 import DisplayNone from '../../Components/Layouts/DisplayNone'
 import MenuMobile from '../../Components/Layouts/MenuMobile/BotaoMenuMobile'
-import LinksMenuMobile from '../../Components/Layouts/MenuMobile/LinksMenuMobile'
 
 const Menu = () => {
   const [activeButton, setActiveButton] = useState<number | null>(null)
@@ -24,13 +23,12 @@ const Menu = () => {
             </h1>
           </div>
           <MenuMobile />
-          <LinksMenuMobile />
           <DisplayNone>
             <nav>
               <UlConfig>
                 <li>
                   <BotaoMenu
-                    href="#inicio"
+                    href="#top"
                     isActive={activeButton === 0}
                     onClick={() => handleButtonClick(0)}
                   >

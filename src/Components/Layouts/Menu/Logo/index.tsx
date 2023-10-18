@@ -5,7 +5,7 @@ type LogoProps = {
 }
 
 const Logo = ({ src }: LogoProps) => (
-  <a href="#inicio">
+  <a href="#top">
     <ImgLogo src={src} />
   </a>
 )
