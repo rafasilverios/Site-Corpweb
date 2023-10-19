@@ -6,7 +6,11 @@ import Container from '../../Components/Layouts/ContainerEstilo'
 import DisplayNone from '../../Components/Layouts/DisplayNone'
 import MenuMobile from '../../Components/Layouts/MenuMobile/BotaoMenuMobile'
 
-const Menu = () => {
+type HeaderProps = {
+  id: string
+}
+
+const Menu = ({ id }: HeaderProps) => {
   const [activeButton, setActiveButton] = useState<number | null>(null)
 
   const handleButtonClick = (index: number) => {
@@ -14,7 +18,7 @@ const Menu = () => {
   }
 
   return (
-    <Header>
+    <Header id={id}>
       <Container>
         <MenuConfig>
           <div>

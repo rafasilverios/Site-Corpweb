@@ -30,4 +30,5 @@ export const MenuConfig = styled.div`
 export const UlConfig = styled.ul`
   list-style: none;
   display: flex;
+  margin: 0;
 `

@@ -1,7 +1,7 @@
 import { LinksMenuMobileEstilo } from './styles'
 
 const LinksMenuMobile = () => (
-  <LinksMenuMobileEstilo>
+  <LinksMenuMobileEstilo className="collapse" id="menuMobile">
     <ul>
       <li>
         <a href="#top">Início</a>

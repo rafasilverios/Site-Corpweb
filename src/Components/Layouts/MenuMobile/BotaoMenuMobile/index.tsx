@@ -16,8 +16,15 @@ const MenuMobile = () => {
 
   return (
     <>
-      <MenuMobileEstilo src={AbreFechaMenu()} onClick={AlternarMenu} />
-      {isMenuOpen && <LinksMenuMobile />}
+      <MenuMobileEstilo
+        src={AbreFechaMenu()}
+        onClick={AlternarMenu}
+        data-bs-toggle="collapse"
+        data-bs-target="#menuMobile"
+      />
+      <div className={`collapse`} id="menuMobile">
+        <LinksMenuMobile />
+      </div>
     </>
   )
 }
