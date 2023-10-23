@@ -19,20 +19,22 @@ const Contato = ({ id }: ContatoProps) => {
     <ContatoEstilo id={id}>
       <ContainerMaior>
         <ConfigDisplayTexto>
-          <TituloH4
-            tipo="principal"
-            fontSize={48}
-            fontWeight={500}
-            padding="0 0 16px 0"
-          >
-            Ficou com alguma dúvida?
-          </TituloH4>
-          <Paragrafo>
-            Entre em contato conosco em um dos canais a seguir.
-          </Paragrafo>
-          <Paragrafo>
-            Será uma enorme satisfação poder atender você e sua empresa!
-          </Paragrafo>
+          <ConfigDisplayTexto>
+            <TituloH4
+              tipo="principal"
+              fontSize={48}
+              fontWeight={500}
+              padding="0 0 16px 0"
+            >
+              Ficou com alguma dúvida?
+            </TituloH4>
+            <Paragrafo>
+              Entre em contato conosco em um dos canais a seguir.
+            </Paragrafo>
+            <Paragrafo>
+              Será uma enorme satisfação poder atender você e sua empresa!
+            </Paragrafo>
+          </ConfigDisplayTexto>
         </ConfigDisplayTexto>
         <ConfigDisplayTexto>
           <DisplayBotaoContato>

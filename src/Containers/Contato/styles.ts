@@ -13,11 +13,7 @@ export const ConfigDisplayTexto = styled.div`
   gap: 8px;
 
   @media (max-width: 820px) {
-    padding: 0 30px;
-  }
-
-  @media (max-width: 470px) {
-    padding: 0 8px;
+    padding: 0 16px;
   }
 `
 
