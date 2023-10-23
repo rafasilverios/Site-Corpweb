@@ -6,10 +6,6 @@ export const ContainerEstilo = styled.div<ContainerProps>`
   padding: 0 32px;
   margin: 0 auto;
   padding: ${(props) => props.padding};
-
-  @media (max-width: 820px) {
-    padding: 0 16px;
-  }
 `
 
 export default ContainerEstilo
