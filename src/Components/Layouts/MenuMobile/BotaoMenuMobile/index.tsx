@@ -9,6 +9,15 @@ const MenuMobile = () => {
     setIsMenuOpen(!isMenuOpen)
   }
 
+  // function Delay() {
+  //   return new Promise((resolve) => {
+  //     setTimeout(() => {
+  //       resolve(isMenuOpen ? 'show' : '')
+  //       console.log('teste')
+  //     }, 200)
+  //   })
+  // }
+
   const AbreFechaMenu = () =>
     isMenuOpen
       ? 'https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/icons/fechar-menu-3.png'
