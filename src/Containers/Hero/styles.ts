@@ -48,4 +48,8 @@ export const Quadrado = styled.div`
   width: 20px;
   background-color: #ffa928;
   margin-bottom: 48px;
+
+  @media (max-width: 820px) {
+    display: none;
+  }
 `

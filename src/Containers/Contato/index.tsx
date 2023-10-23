@@ -44,8 +44,8 @@ const Contato = ({ id }: ContatoProps) => {
                 width="24px"
                 src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/icons/whatsapp-cheio.png"
               />
-              <Paragrafo tipo="principal" fontWeight="500">
-                (41) 9 8442-4733
+              <Paragrafo tipo="principal" fontWeight="500" margin="0">
+                (41)98442-4733
               </Paragrafo>
             </BotaoContato>
             <BotaoContato
@@ -56,22 +56,22 @@ const Contato = ({ id }: ContatoProps) => {
                 width="24px"
                 src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/icons/linkedin-cheio.png"
               />
-              <Paragrafo tipo="principal" fontWeight="500">
+              <Paragrafo tipo="principal" fontWeight="500" margin="0">
                 linkedin.com/corpweb
               </Paragrafo>
             </BotaoContato>
           </DisplayBotaoContato>
           <DisplayBotaoContato>
             <BotaoContato
-              href="mailto:contato@corpwebsite.com.br"
+              href="mailto:corpwebsites@outlook.com"
               target="_blank"
             >
               <ImgIcon
                 width="24px"
                 src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/icons/email-cheio.png"
               />
-              <Paragrafo tipo="principal" fontWeight="500">
-                contato@corpwebsite.com.br
+              <Paragrafo tipo="principal" fontWeight="500" margin="0">
+                corpwebsites@outlook.com
               </Paragrafo>
             </BotaoContato>
             <BotaoContato
@@ -82,7 +82,7 @@ const Contato = ({ id }: ContatoProps) => {
                 width="24px"
                 src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/icons/instagram-cheio.png"
               />
-              <Paragrafo tipo="principal" fontWeight="500">
+              <Paragrafo tipo="principal" fontWeight="500" margin="0">
                 @corpweb
               </Paragrafo>
             </BotaoContato>
