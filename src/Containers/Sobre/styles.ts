@@ -115,7 +115,7 @@ export const DivRetangulos = styled.div<SobreProps>`
 
   @media (max-width: 575px) {
     width: 100%;
-    height: 460px;
+    height: max-content;
   }
 
   @media (max-width: 300px) {
@@ -144,10 +144,7 @@ export const TextoBusca = styled.p<SobreProps>`
   margin: 42px;
 
   @media (max-width: 1200px) {
-    margin: 32px;
-  }
-
-  @media (max-width: 380px) {
-    margin: 16px;
+    padding: 32px;
+    margin: 0;
   }
 `
