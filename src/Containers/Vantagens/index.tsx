@@ -120,7 +120,7 @@ const Vantagens = ({ id }: VantagensProps) => {
             Análise de Dados
           </TituloH3>
           <Paragrafo tipo="principal" fontSize={16}>
-            Com fo Google Analytics, você pode acompanhar o desempenho do seu
+            Com o Google Analytics, você pode acompanhar o desempenho do seu
             site, entender o comportamento dos visitantes e fazer ajustes para
             melhorar a experiência dos usuários.
           </Paragrafo>

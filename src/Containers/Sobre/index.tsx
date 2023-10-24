@@ -96,7 +96,7 @@ const Sobre = ({ id }: SobreProps) => {
               Como construímos um Site para sua Empresa?
             </TituloH2>
             <Paragrafo tipo="principal" fontSize={16} margin="0 65px 0 0">
-              Nós utilizamos as mais recentes técnologias e as melhores
+              Nós utilizamos as mais recentes tecnologias e as melhores
               linguagens de programação para que seu site se adeque a todas as
               plataformas sendo altamente responsivo, também extremamente rápido
               e eficiente para ranquear muito bem no google. Tudo isso com as
