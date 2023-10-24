@@ -124,7 +124,7 @@ const Sobre = ({ id }: SobreProps) => {
         <ContainerMaior>
           <ImgSobre
             maxWidth="675px"
-            src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/23b003c68fc1724725c3ea126424e08db94acbb7/Servidor%20de%20Imagens/CorpWeb/img/vetor-site-para-empresa.svg"
+            src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/vetor-site%20para%20empresa.jpg"
           />
           <ConfigDisplayTexto>
             <TituloH2

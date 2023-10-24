@@ -28,10 +28,10 @@ const Contato = ({ id }: ContatoProps) => {
             >
               Ficou com alguma dúvida?
             </TituloH4>
-            <Paragrafo>
+            <Paragrafo margin="0">
               Entre em contato conosco em um dos canais a seguir.
             </Paragrafo>
-            <Paragrafo>
+            <Paragrafo margin="0">
               Será uma enorme satisfação poder atender você e sua empresa!
             </Paragrafo>
           </ConfigDisplayTexto>

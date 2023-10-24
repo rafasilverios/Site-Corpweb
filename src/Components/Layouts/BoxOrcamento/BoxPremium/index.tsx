@@ -138,7 +138,7 @@ const BoxPremium = () => {
             height={20}
           />
           <Paragrafo tipo="principal" paddingBottom="10px">
-            1 ano de domínio gratis
+            1 ano de domínio gratis (Consultar condições)
           </Paragrafo>
         </BoxItem>
         <BoxItem>
