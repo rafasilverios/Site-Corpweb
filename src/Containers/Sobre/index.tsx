@@ -6,17 +6,10 @@ import MeiaTela from '../../Components/Layouts/Sobre/MeiaTela'
 import {
   ConfigDisplayTexto,
   SobreEstilo,
-  DisplayFlexCenter,
-  DisplayGrid,
-  DivRetangulos,
-  DivRetanguloMenor,
-  TextoBusca
+  DisplayFlexCenter
 } from '../Sobre/styles'
-import Container from '../../Components/Layouts/ContainerEstilo'
 import TituloH2 from '../../Components/Layouts/TituloH2'
-import TituloH3 from '../../Components/Layouts/TituloH3'
 import ImgSobre from '../../Components/Layouts/ImgSobre'
-import ImgHero from '../../Components/Layouts/ImgHero/index'
 
 export type SobreProps = {
   id?: string
@@ -128,39 +121,30 @@ const Sobre = ({ id }: SobreProps) => {
         justifyContent="center"
         backgroundColor="#fff"
       >
-        <Container>
-          <DisplayGrid>
-            <DivRetangulos backgroundColor="transparent">
-              <DivRetanguloMenor textAlign="center" marginBottom="20px">
-                <TituloH3 maxWidth={300} tipo="secundario" padding="16px">
-                  Sua empresa será vista e lembrada!
-                </TituloH3>
-              </DivRetanguloMenor>
-              <DivRetanguloMenor>
-                <ImgHero
-                  src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/search.jpg"
-                  width="100%"
-                />
-              </DivRetanguloMenor>
-            </DivRetangulos>
-            <DivRetangulos>
-              <ImgSobre
-                maxWidth="100%"
-                src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/009ad2bec1fe33f3ee6a799a016c5a4d4c49a5df/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/vetor-site-pessoa.svg"
-              />
-            </DivRetangulos>
-            <DivRetangulos>
-              <TextoBusca>
-                Você sabia que mecanismos de busca, como o Google, são portas de
-                entrada para milhões de potenciais clientes. Quando alguém busca
-                por um produto ou serviço que sua empresa oferece, estar nas
-                primeiras posições dos resultados de pesquisa pode fazer toda a
-                diferença? É como se sua empresa estivesse em destaque na
-                vitrine de uma rua movimentada, pronto para atrair visitantes.
-              </TextoBusca>
-            </DivRetangulos>
-          </DisplayGrid>
-        </Container>
+        <ContainerMaior>
+          <ImgSobre
+            maxWidth="675px"
+            src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/23b003c68fc1724725c3ea126424e08db94acbb7/Servidor%20de%20Imagens/CorpWeb/img/vetor-site-para-empresa.svg"
+          />
+          <ConfigDisplayTexto>
+            <TituloH2
+              fontSize={48}
+              maxWidth={550}
+              paddingBottom="32px"
+              fontWeight={500}
+            >
+              Sua empresa será vista e lembrada!
+            </TituloH2>
+            <Paragrafo tipo="secundario" fontSize={16}>
+              Você sabia que mecanismos de busca, como o Google, são portas de
+              entrada para milhões de potenciais clientes. Quando alguém busca
+              por um produto ou serviço que sua empresa oferece, estar nas
+              primeiras posições dos resultados de pesquisa pode fazer toda a
+              diferença? É como se sua empresa estivesse em destaque na vitrine
+              de uma rua movimentada, pronto para atrair visitantes.
+            </Paragrafo>
+          </ConfigDisplayTexto>
+        </ContainerMaior>
       </SobreEstilo>
     </>
   )
