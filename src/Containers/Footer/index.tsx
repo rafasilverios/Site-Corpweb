@@ -17,7 +17,7 @@ const Footer = ({ id }: FooterProps) => {
   return (
     <FooterEstilo id={id}>
       <Container padding="70px 32px">
-        <Logo src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/corpweb-logo-fundo-claro.png" />
+        <Logo src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/logos/site%20para%20empresas%20logo%20fundo%20claro.png" />
         <div>
           <UlConfigFooter>
             <li>

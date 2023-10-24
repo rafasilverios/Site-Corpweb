@@ -70,18 +70,18 @@ const Sobre = ({ id }: SobreProps) => {
           </ConfigDisplayTexto>
           <ImgSobre
             maxWidth="675px"
-            src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/construindo-site.jpg"
+            src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/site%20para%20empresa.jpg"
           />
         </ContainerMaior>
       </SobreEstilo>
       <SobreEstilo display="block" justifyContent="flex-start">
         <ImgLines
           tipo="esquerdoBaixo"
-          src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/riscos_brancos.png"
+          src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/site-para-empresa.png"
         />
         <ImgLines
           tipo="direitoCima"
-          src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/riscos.png"
+          src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/site-para-empresas.png"
         />
         <MeiaTela tipo="secundario" padding="130px 0 0 12vw">
           <ConfigDisplayTexto>
