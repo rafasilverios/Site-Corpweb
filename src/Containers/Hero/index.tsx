@@ -19,10 +19,10 @@ const Hero = ({ id }: HeroProps) => {
       <ConfigDisplayTexto>
         <Quadrado />
         <TituloSite tipo="principal">Sua Empresa tem um Site?</TituloSite>
-        <Paragrafo tipo="principal" paddingTop="16px" fontSize={20}>
+        <Paragrafo tipo="principal" paddingTop="16px" fontSize={20} margin="0">
           Caso a sua resposta seja não, podemos te ajudar.
         </Paragrafo>
-        <Paragrafo tipo="principal" fontSize={20}>
+        <Paragrafo tipo="principal" fontSize={20} margin="0">
           Nós transformaremos sua ideia em um site incrível. Vamos começar?
         </Paragrafo>
         <BotaoBody href="#orcamento">Solicitar Orçamento</BotaoBody>

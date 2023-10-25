@@ -21,6 +21,7 @@ const BoxPremium = () => {
       </BoxTitulo>
       <BoxLista>
         <Paragrafo
+          margin="0"
           tipo="principal"
           fontSize={16}
           fontWeight="300"
@@ -36,7 +37,7 @@ const BoxPremium = () => {
             width={20}
             height={20}
           />
-          <Paragrafo tipo="principal" paddingBottom="12px">
+          <Paragrafo margin="0" tipo="principal" paddingBottom="12px">
             Site ultra rápido e responsivo
           </Paragrafo>
         </BoxItem>
@@ -47,7 +48,7 @@ const BoxPremium = () => {
             width={20}
             height={20}
           />
-          <Paragrafo tipo="principal" paddingBottom="10px">
+          <Paragrafo margin="0" tipo="principal" paddingBottom="10px">
             Ótima pontuação no google
           </Paragrafo>
         </BoxItem>
@@ -58,7 +59,7 @@ const BoxPremium = () => {
             width={20}
             height={20}
           />
-          <Paragrafo tipo="principal" paddingBottom="10px">
+          <Paragrafo margin="0" tipo="principal" paddingBottom="10px">
             Certificado SSL de segurança
           </Paragrafo>
         </BoxItem>
@@ -69,7 +70,7 @@ const BoxPremium = () => {
             width={20}
             height={20}
           />
-          <Paragrafo tipo="principal" paddingBottom="10px">
+          <Paragrafo margin="0" tipo="principal" paddingBottom="10px">
             Design 100% exclusivo para sua empresa
           </Paragrafo>
         </BoxItem>
@@ -80,7 +81,7 @@ const BoxPremium = () => {
             width={20}
             height={20}
           />
-          <Paragrafo tipo="principal" paddingBottom="10px">
+          <Paragrafo margin="0" tipo="principal" paddingBottom="10px">
             10 contas de E-mail Profissional
           </Paragrafo>
         </BoxItem>
@@ -91,7 +92,7 @@ const BoxPremium = () => {
             width={20}
             height={20}
           />
-          <Paragrafo tipo="principal" paddingBottom="10px">
+          <Paragrafo margin="0" tipo="principal" paddingBottom="10px">
             Suporte pelo WhatsApp
           </Paragrafo>
         </BoxItem>
@@ -102,7 +103,7 @@ const BoxPremium = () => {
             width={20}
             height={20}
           />
-          <Paragrafo tipo="principal" paddingBottom="10px">
+          <Paragrafo margin="0" tipo="principal" paddingBottom="10px">
             Provas de Layout adequar o site as suas
           </Paragrafo>
         </BoxItem>
@@ -113,7 +114,7 @@ const BoxPremium = () => {
             width={20}
             height={20}
           />
-          <Paragrafo tipo="principal" paddingBottom="10px">
+          <Paragrafo margin="0" tipo="principal" paddingBottom="10px">
             Possibilidade de adicionar novas funcionalidades, ferramentas e
             conteúdos conforme necessidade
           </Paragrafo>
@@ -125,7 +126,7 @@ const BoxPremium = () => {
             width={20}
             height={20}
           />
-          <Paragrafo tipo="principal" paddingBottom="10px">
+          <Paragrafo margin="0" tipo="principal" paddingBottom="10px">
             Seu site com as tecnologias usadas por Tesla, Airbnb, Uber,
             Microsoft, Facebook, etc
           </Paragrafo>
@@ -137,7 +138,7 @@ const BoxPremium = () => {
             width={20}
             height={20}
           />
-          <Paragrafo tipo="principal" paddingBottom="10px">
+          <Paragrafo margin="0" tipo="principal" paddingBottom="10px">
             1 ano de domínio gratis (Consultar condições)
           </Paragrafo>
         </BoxItem>
@@ -148,7 +149,7 @@ const BoxPremium = () => {
             width={20}
             height={20}
           />
-          <Paragrafo tipo="principal" paddingBottom="10px">
+          <Paragrafo margin="0" tipo="principal" paddingBottom="10px">
             1 ano de Hospedagem grátis
           </Paragrafo>
         </BoxItem>

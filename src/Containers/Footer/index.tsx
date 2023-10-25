@@ -23,6 +23,7 @@ const Footer = ({ id }: FooterProps) => {
             <li>
               <LinkFooter href="#inicio">
                 <Paragrafo
+                  margin="0"
                   tipo="principal"
                   fontSize={16}
                   fontWeight="300"
@@ -35,6 +36,7 @@ const Footer = ({ id }: FooterProps) => {
             <li>
               <LinkFooter href="#sobre">
                 <Paragrafo
+                  margin="0"
                   tipo="principal"
                   fontSize={16}
                   fontWeight="300"
@@ -47,6 +49,7 @@ const Footer = ({ id }: FooterProps) => {
             <li>
               <LinkFooter href="#vantagens">
                 <Paragrafo
+                  margin="0"
                   tipo="principal"
                   fontSize={16}
                   fontWeight="300"
@@ -59,6 +62,7 @@ const Footer = ({ id }: FooterProps) => {
             <li>
               <LinkFooter href="#orcamento">
                 <Paragrafo
+                  margin="0"
                   tipo="principal"
                   fontSize={16}
                   fontWeight="300"
@@ -71,6 +75,7 @@ const Footer = ({ id }: FooterProps) => {
             <li>
               <LinkFooter href="#contato">
                 <Paragrafo
+                  margin="0"
                   tipo="principal"
                   fontSize={16}
                   fontWeight="300"
@@ -83,6 +88,7 @@ const Footer = ({ id }: FooterProps) => {
           </UlConfigFooter>
         </div>
         <Paragrafo
+          margin="0"
           tipo="principal"
           fontSize={16}
           fontWeight="300"

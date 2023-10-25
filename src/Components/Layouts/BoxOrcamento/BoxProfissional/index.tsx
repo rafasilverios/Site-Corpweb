@@ -21,6 +21,7 @@ const BoxProfissional = () => {
       </BoxTitulo>
       <BoxLista>
         <Paragrafo
+          margin="0"
           tipo="principal"
           fontSize={16}
           fontWeight="300"
@@ -35,7 +36,7 @@ const BoxProfissional = () => {
             width={20}
             height={20}
           />
-          <Paragrafo tipo="principal" paddingBottom="12px">
+          <Paragrafo margin="0" tipo="principal" paddingBottom="12px">
             Site ultra rápido e responsivo
           </Paragrafo>
         </BoxItem>
@@ -46,7 +47,7 @@ const BoxProfissional = () => {
             width={20}
             height={20}
           />
-          <Paragrafo tipo="principal" paddingBottom="10px">
+          <Paragrafo margin="0" tipo="principal" paddingBottom="10px">
             Ótima pontuação no google
           </Paragrafo>
         </BoxItem>
@@ -57,7 +58,7 @@ const BoxProfissional = () => {
             width={20}
             height={20}
           />
-          <Paragrafo tipo="principal" paddingBottom="10px">
+          <Paragrafo margin="0" tipo="principal" paddingBottom="10px">
             Certificado SSL de segurança
           </Paragrafo>
         </BoxItem>
@@ -68,7 +69,7 @@ const BoxProfissional = () => {
             width={20}
             height={20}
           />
-          <Paragrafo tipo="principal" paddingBottom="10px">
+          <Paragrafo margin="0" tipo="principal" paddingBottom="10px">
             Personalizável com a identidade da sua empresa
           </Paragrafo>
         </BoxItem>
@@ -79,7 +80,7 @@ const BoxProfissional = () => {
             width={20}
             height={20}
           />
-          <Paragrafo tipo="principal" paddingBottom="10px">
+          <Paragrafo margin="0" tipo="principal" paddingBottom="10px">
             5 contas de E-mail Profissional
           </Paragrafo>
         </BoxItem>
@@ -90,7 +91,7 @@ const BoxProfissional = () => {
             width={20}
             height={20}
           />
-          <Paragrafo tipo="principal" paddingBottom="10px">
+          <Paragrafo margin="0" tipo="principal" paddingBottom="10px">
             Suporte pelo WhatsApp
           </Paragrafo>
         </BoxItem>
@@ -101,7 +102,7 @@ const BoxProfissional = () => {
             width={20}
             height={20}
           />
-          <Paragrafo tipo="principal" paddingBottom="10px">
+          <Paragrafo margin="0" tipo="principal" paddingBottom="10px">
             Prazo de entrega reduzido
           </Paragrafo>
         </BoxItem>
@@ -112,7 +113,7 @@ const BoxProfissional = () => {
             width={20}
             height={20}
           />
-          <Paragrafo tipo="principal" paddingBottom="10px">
+          <Paragrafo margin="0" tipo="principal" paddingBottom="10px">
             1 ano de domínio gratis (Consultar condições)
           </Paragrafo>
         </BoxItem>
@@ -123,7 +124,7 @@ const BoxProfissional = () => {
             width={20}
             height={20}
           />
-          <Paragrafo tipo="principal" paddingBottom="10px">
+          <Paragrafo margin="0" tipo="principal" paddingBottom="10px">
             1 ano de Hospedagem grátis
           </Paragrafo>
         </BoxItem>

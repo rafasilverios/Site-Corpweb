@@ -21,7 +21,7 @@ const Orcamento = ({ id }: OrcamentoProps) => (
       >
         Solicite um Orçamento
       </TituloH2>
-      <Paragrafo tipo="principal" paddingBottom="32px">
+      <Paragrafo tipo="principal" paddingBottom="32px" margin="0">
         Escolha a melhor opção para o site da sua empresa.
       </Paragrafo>
       <DisplayGridOrcamento>
