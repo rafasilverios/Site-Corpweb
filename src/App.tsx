@@ -11,6 +11,7 @@ import Footer from './Containers/Footer'
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min'
+import BotaoTopo from './Components/Layouts/BotaoTopo'
 
 function App() {
   return (
@@ -25,6 +26,10 @@ function App() {
           <Orcamento id="orcamento" data-bs-offset="50" />
           <Contato id="contato" data-bs-offset="50" />
           <Footer id="footer" data-bs-offset="50" />
+          <BotaoTopo
+            href="#top"
+            ariaLabel="Clique para voltar ao topo da página"
+          />
         </div>
       </ThemeProvider>
     </>
