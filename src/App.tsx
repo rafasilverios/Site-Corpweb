@@ -12,6 +12,7 @@ import Footer from './Containers/Footer'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min'
 import BotaoTopo from './Components/Layouts/BotaoTopo'
+import BotaoWhats from './Components/Layouts/BotaoWhats'
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
             href="#top"
             ariaLabel="Clique para voltar ao topo da página"
           />
+          <BotaoWhats />
         </div>
       </ThemeProvider>
     </>
