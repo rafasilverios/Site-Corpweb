@@ -26,7 +26,7 @@ const BotaoWhats = () => {
       className="BotaoWhatsEstilo"
       href="https://wa.me/5541984424733?text=Ol%C3%A1%2C+tudo+bem%3F%0AQuero+mais+informações+sobre+os+planos+oferecidos+para+desenvolver+um+site+para+minha+empresa.+Seria+poss%C3%ADvel+fornecer+mais+informações+sobre+os+detalhes+dos+planos+e+como+eles+podem+beneficiar+o+meu+neg%C3%B3cio%3F"
       target="_blank"
-      // aria-label="Clique para falar com a CorpWeb pelo WhatsApp"
+      // aria-label="Botão do WhatsApp"
       rel="noreferrer"
     >
       <p>2</p>
