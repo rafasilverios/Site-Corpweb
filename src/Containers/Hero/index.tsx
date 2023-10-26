@@ -14,7 +14,7 @@ const Hero = ({ id }: HeroProps) => {
     <HeroEstilo id={id}>
       <ImgHero
         width="860px"
-        src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/site%20para%20empresas.PNG"
+        src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/site-para-empresas.webp"
       />
       <ConfigDisplayTexto>
         <Quadrado />
