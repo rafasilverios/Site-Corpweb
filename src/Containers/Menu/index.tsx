@@ -11,11 +11,11 @@ type HeaderProps = {
 }
 
 const Menu = ({ id }: HeaderProps) => {
-  const [activeButton, setActiveButton] = useState<number | null>(null)
+  const [activeButton] = useState<number | null>(null)
 
-  const handleButtonClick = (index: number) => {
-    setActiveButton(index)
-  }
+  // const handleButtonClick = (index: number) => {
+  //   setActiveButton(index)
+  // }
 
   return (
     <Header id={id}>
@@ -34,7 +34,7 @@ const Menu = ({ id }: HeaderProps) => {
                   <BotaoMenu
                     href="#top"
                     isActive={activeButton === 0}
-                    onClick={() => handleButtonClick(0)}
+                    // onClick={() => handleButtonClick(0)}
                   >
                     Início
                   </BotaoMenu>
@@ -43,7 +43,7 @@ const Menu = ({ id }: HeaderProps) => {
                   <BotaoMenu
                     href="#sobre"
                     isActive={activeButton === 1}
-                    onClick={() => handleButtonClick(1)}
+                    // onClick={() => handleButtonClick(1)}
                   >
                     Sobre
                   </BotaoMenu>
@@ -52,7 +52,7 @@ const Menu = ({ id }: HeaderProps) => {
                   <BotaoMenu
                     href="#vantagens"
                     isActive={activeButton === 2}
-                    onClick={() => handleButtonClick(2)}
+                    // onClick={() => handleButtonClick(2)}
                   >
                     Vantagens
                   </BotaoMenu>
@@ -61,7 +61,7 @@ const Menu = ({ id }: HeaderProps) => {
                   <BotaoMenu
                     href="#orcamento"
                     isActive={activeButton === 3}
-                    onClick={() => handleButtonClick(3)}
+                    // onClick={() => handleButtonClick(3)}
                   >
                     Orçamento
                   </BotaoMenu>
@@ -70,7 +70,7 @@ const Menu = ({ id }: HeaderProps) => {
                   <BotaoMenu
                     href="#contato"
                     isActive={activeButton === 4}
-                    onClick={() => handleButtonClick(4)}
+                    // onClick={() => handleButtonClick(4)}
                   >
                     Contato
                   </BotaoMenu>

@@ -4,12 +4,12 @@ type BotaoMenuProps = {
   children: string
   href: string
   isActive: boolean
-  onClick: () => void
+  // onClick: () => void
 }
 
-const BotaoMenu = ({ children, href, isActive, onClick }: BotaoMenuProps) => {
+const BotaoMenu = ({ children, href, isActive }: BotaoMenuProps) => {
   return (
-    <BotaoMenuEstilo href={href} isActive={isActive} onClick={onClick}>
+    <BotaoMenuEstilo href={href} isActive={isActive}>
       {children}
     </BotaoMenuEstilo>
   )
