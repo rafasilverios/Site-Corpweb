@@ -2,11 +2,12 @@ import { ImgLogo } from './styles'
 
 type LogoProps = {
   src: string
+  alt: string
 }
 
-const Logo = ({ src }: LogoProps) => (
+const Logo = ({ src, alt }: LogoProps) => (
   <a href="#top">
-    <ImgLogo src={src} />
+    <ImgLogo src={src} alt={alt} />
   </a>
 )
 

@@ -3,12 +3,13 @@ import { ImgSobreEstilo, Img } from './styles'
 export type ImgProps = {
   src?: string
   maxWidth: string
+  alt?: string
 }
 
-const ImgSobre = ({ src, maxWidth }: ImgProps) => {
+const ImgSobre = ({ src, maxWidth, alt }: ImgProps) => {
   return (
     <ImgSobreEstilo maxWidth={maxWidth}>
-      <Img src={src} />
+      <Img src={src} alt={alt} />
     </ImgSobreEstilo>
   )
 }

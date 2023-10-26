@@ -14,6 +14,7 @@ const Hero = ({ id }: HeroProps) => {
     <HeroEstilo id={id}>
       <a href="https://luxergonomia.com.br/" target="_blank" rel="noreferrer">
         <ImgHero
+          alt="Imagem do site da Lux Ergonomia, desenvolvido pela CorpWeb Site para empresas"
           width="860px"
           src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/site-para-empresas.webp"
         />

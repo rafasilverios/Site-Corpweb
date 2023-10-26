@@ -43,6 +43,7 @@ const Contato = ({ id }: ContatoProps) => {
               target="_blank"
             >
               <ImgIcon
+                alt="Logo do Whatsapp"
                 width="24px"
                 src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/whatsapp-cheio.png"
               />
@@ -55,6 +56,7 @@ const Contato = ({ id }: ContatoProps) => {
               target="_blank"
             >
               <ImgIcon
+                alt="Logo do LinkedIn"
                 width="24px"
                 src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/linkedin-cheio.png"
               />
@@ -69,6 +71,7 @@ const Contato = ({ id }: ContatoProps) => {
               target="_blank"
             >
               <ImgIcon
+                alt="Logo e-mail"
                 width="24px"
                 src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/email-cheio.png"
               />
@@ -81,6 +84,7 @@ const Contato = ({ id }: ContatoProps) => {
               target="_blank"
             >
               <ImgIcon
+                alt="Logo do Instagram"
                 width="24px"
                 src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/instagram-cheio.png"
               />

@@ -23,7 +23,10 @@ const Menu = ({ id }: HeaderProps) => {
         <MenuConfig>
           <div>
             <h1>
-              <Logo src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/logos/site%20para%20empresas%20logo.png" />
+              <Logo
+                alt="Logo da CorpWeb site para empresas"
+                src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/logos/site%20para%20empresas%20logo.png"
+              />
             </h1>
           </div>
           <MenuMobile />

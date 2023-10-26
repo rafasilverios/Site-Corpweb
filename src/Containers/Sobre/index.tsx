@@ -62,6 +62,7 @@ const Sobre = ({ id }: SobreProps) => {
             </Paragrafo>
           </ConfigDisplayTexto>
           <ImgSobre
+            alt="Imagem de um desenho ilustrativo que mostra algumas pessoas construindo um site"
             maxWidth="675px"
             src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/site-para-empresa.webp"
           />
@@ -69,10 +70,12 @@ const Sobre = ({ id }: SobreProps) => {
       </SobreEstilo>
       <SobreEstilo display="block" justifyContent="flex-start">
         <ImgLines
+          alt="Imagem de linhas na horizontal a 45 graus"
           tipo="esquerdoBaixo"
           src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/site-para-empresa.png"
         />
         <ImgLines
+          alt="Imagem de linhas na horizontal a 45 graus"
           tipo="direitoCima"
           src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/site-para-empresas.png"
         />
@@ -102,18 +105,30 @@ const Sobre = ({ id }: SobreProps) => {
           <ImgStack
             padding="8px"
             src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/logos/logo-wordpress.png"
+            alt="Logo Wordpress"
           />
           <ImgStack
             padding="8px"
             src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/logos/html-5.png"
+            alt="Logo Html 5"
           />
           <ImgStack
             padding="8px"
             src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/logos/css-3.png"
+            alt="Logo CSS 3"
           />
-          <ImgStack src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/logos/js.png" />
-          <ImgStack src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/logos/logo-typescript.png" />
-          <ImgStack src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/logos/logo-react.png" />
+          <ImgStack
+            src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/logos/js.png"
+            alt="Logo JavaScript"
+          />
+          <ImgStack
+            src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/logos/logo-typescript.png"
+            alt="Logo TypeScript"
+          />
+          <ImgStack
+            src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/logos/logo-react.png"
+            alt="Logo React"
+          />
         </DisplayFlexCenter>
       </SobreEstilo>
       <SobreEstilo
@@ -123,6 +138,7 @@ const Sobre = ({ id }: SobreProps) => {
       >
         <ContainerMaior>
           <ImgSobre
+            alt="Imagem de um desenho ilustrativo que mostra algumas pessoas construindo um site e com uma lupa em uma barra de pesquisa"
             maxWidth="675px"
             src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/vetor-site-para-empresa.webp"
           />
