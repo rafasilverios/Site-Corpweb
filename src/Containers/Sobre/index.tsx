@@ -63,7 +63,7 @@ const Sobre = ({ id }: SobreProps) => {
           </ConfigDisplayTexto>
           <ImgSobre
             maxWidth="675px"
-            src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/site%20para%20empresa.jpg"
+            src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/site-para-empresa.webp"
           />
         </ContainerMaior>
       </SobreEstilo>
@@ -124,7 +124,7 @@ const Sobre = ({ id }: SobreProps) => {
         <ContainerMaior>
           <ImgSobre
             maxWidth="675px"
-            src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/vetor-site%20para%20empresa.jpg"
+            src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/vetor-site-para-empresa.webp"
           />
           <ConfigDisplayTexto>
             <TituloH2
