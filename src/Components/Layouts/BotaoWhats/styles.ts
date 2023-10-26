@@ -3,10 +3,10 @@ import styled from 'styled-components'
 export const BotaoWhatsEstilo = styled.a`
   position: fixed;
   z-index: 2;
-  bottom: 0;
-  left: 0;
+  bottom: 8px;
+  left: 8px;
   content: '';
-  background-image: url('./assets/img/whatsapp-verde-64px.png');
+  background-image: url('https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/whatsapp-verde-64px.png');
   background-position: bottom left;
   background-repeat: no-repeat;
   width: 65px;
@@ -30,5 +30,29 @@ export const BotaoWhatsEstilo = styled.a`
     font-weight: bold;
     border-radius: 50%;
     line-height: 16px;
+  }
+
+  &.shake {
+    animation: shake 0.5s ease infinite;
+  }
+
+  @keyframes shake {
+    0%,
+    100% {
+      transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+      transform: translateX(-3px);
+    }
+    20%,
+    40%,
+    60%,
+    80% {
+      transform: translateX(3px);
+    }
   }
 `
