@@ -36,6 +36,7 @@ const Menu = ({ id }: HeaderProps) => {
                 <li>
                   <BotaoMenu
                     href="#top"
+                    aria-label="Início do site"
                     isActive={activeButton === 0}
                     // onClick={() => handleButtonClick(0)}
                   >
@@ -45,6 +46,7 @@ const Menu = ({ id }: HeaderProps) => {
                 <li>
                   <BotaoMenu
                     href="#sobre"
+                    aria-label="Sobre a CorpWeb site para empresa"
                     isActive={activeButton === 1}
                     // onClick={() => handleButtonClick(1)}
                   >
@@ -54,6 +56,7 @@ const Menu = ({ id }: HeaderProps) => {
                 <li>
                   <BotaoMenu
                     href="#vantagens"
+                    aria-label="Vantagens em nos contratar"
                     isActive={activeButton === 2}
                     // onClick={() => handleButtonClick(2)}
                   >
@@ -63,6 +66,7 @@ const Menu = ({ id }: HeaderProps) => {
                 <li>
                   <BotaoMenu
                     href="#orcamento"
+                    aria-label="Orçamento para criar um site para sua empresa"
                     isActive={activeButton === 3}
                     // onClick={() => handleButtonClick(3)}
                   >
@@ -72,6 +76,7 @@ const Menu = ({ id }: HeaderProps) => {
                 <li>
                   <BotaoMenu
                     href="#contato"
+                    aria-label="Contato com a CorpWeb site para empresa"
                     isActive={activeButton === 4}
                     // onClick={() => handleButtonClick(4)}
                   >

@@ -4,19 +4,32 @@ const LinksMenuMobile = () => (
   <LinksMenuMobileEstilo className="collapse" id="menuMobile">
     <ul>
       <li>
-        <a href="#top">Início</a>
+        <a href="#top" aria-label="Início do site">
+          Início
+        </a>
       </li>
       <li>
-        <a href="#sobre">Sobre</a>
+        <a href="#sobre" aria-label="Sobre a CorpWeb site para empresa">
+          Sobre
+        </a>
       </li>
       <li>
-        <a href="#vantagens">Vantagens</a>
+        <a href="#vantagens" aria-label="Vantagens em nos contratar">
+          Vantagens
+        </a>
       </li>
       <li>
-        <a href="#orcamento">Orçamento</a>
+        <a
+          href="#orcamento"
+          aria-label="Orçamento para criar um site para sua empresa"
+        >
+          Orçamento
+        </a>
       </li>
       <li>
-        <a href="#contato">Contato</a>
+        <a href="#contato" aria-label="Contato com a CorpWeb site para empresa">
+          Contato
+        </a>
       </li>
     </ul>
   </LinksMenuMobileEstilo>
