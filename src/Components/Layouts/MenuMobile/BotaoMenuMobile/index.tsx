@@ -26,6 +26,7 @@ const MenuMobile = () => {
   return (
     <>
       <MenuMobileEstilo
+        alt="Menu Mobile"
         src={AbreFechaMenu()}
         onClick={AlternarMenu}
         data-bs-toggle="collapse"
