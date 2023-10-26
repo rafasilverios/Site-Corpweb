@@ -106,7 +106,7 @@ const Footer = ({ id }: FooterProps) => {
           >
             <ImgIcon
               width="36px"
-              src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/icons/whatsapp-cheio.png"
+              src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/whatsapp-cheio.png"
             />
           </a>
           <a
@@ -116,7 +116,7 @@ const Footer = ({ id }: FooterProps) => {
           >
             <ImgIcon
               width="36px"
-              src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/icons/linkedin-cheio.png"
+              src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/linkedin-cheio.png"
             />
           </a>
           <a
@@ -126,7 +126,7 @@ const Footer = ({ id }: FooterProps) => {
           >
             <ImgIcon
               width="36px"
-              src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/icons/email-cheio.png"
+              src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/email-cheio.png"
             />
           </a>
           <a
@@ -136,7 +136,7 @@ const Footer = ({ id }: FooterProps) => {
           >
             <ImgIcon
               width="36px"
-              src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/icons/instagram-cheio.png"
+              src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/instagram-cheio.png"
             />
           </a>
         </DisplayIcons>

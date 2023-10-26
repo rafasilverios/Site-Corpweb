@@ -14,7 +14,7 @@ const Vantagens = ({ id }: VantagensProps) => {
         <DivMaxWidth>
           <ImgIcon
             width="58px"
-            src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/icons/visibilidade.png"
+            src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/visibilidade.png"
           />
           <TituloH3
             tipo="principal"
@@ -33,7 +33,7 @@ const Vantagens = ({ id }: VantagensProps) => {
         <DivMaxWidth>
           <ImgIcon
             width="58px"
-            src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/icons/acesso-global.png"
+            src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/acesso-global.png"
           />
           <TituloH3
             tipo="principal"
@@ -52,7 +52,7 @@ const Vantagens = ({ id }: VantagensProps) => {
         <DivMaxWidth>
           <ImgIcon
             width="58px"
-            src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/icons/credibilidade.png"
+            src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/credibilidade.png"
           />
           <TituloH3
             tipo="principal"
@@ -71,7 +71,7 @@ const Vantagens = ({ id }: VantagensProps) => {
         <DivMaxWidth>
           <ImgIcon
             width="58px"
-            src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/icons/marketing-eficiente.png"
+            src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/marketing-eficiente.png"
           />
           <TituloH3
             tipo="principal"
@@ -90,7 +90,7 @@ const Vantagens = ({ id }: VantagensProps) => {
         <DivMaxWidth>
           <ImgIcon
             width="58px"
-            src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/icons/comunicacao-direta-3.png"
+            src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/comunicacao-direta-3.png"
           />
           <TituloH3
             tipo="principal"
@@ -109,7 +109,7 @@ const Vantagens = ({ id }: VantagensProps) => {
         <DivMaxWidth>
           <ImgIcon
             width="58px"
-            src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/icons/analise-dados.png"
+            src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/analise-dados.png"
           />
           <TituloH3
             tipo="principal"

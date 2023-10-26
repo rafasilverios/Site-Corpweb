@@ -12,10 +12,12 @@ type HeroProps = {
 const Hero = ({ id }: HeroProps) => {
   return (
     <HeroEstilo id={id}>
-      <ImgHero
-        width="860px"
-        src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/site-para-empresas.webp"
-      />
+      <a href="https://luxergonomia.com.br/" target="_blank" rel="noreferrer">
+        <ImgHero
+          width="860px"
+          src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/site-para-empresas.webp"
+        />
+      </a>
       <ConfigDisplayTexto>
         <Quadrado />
         <TituloSite tipo="principal">Sua Empresa tem um Site?</TituloSite>

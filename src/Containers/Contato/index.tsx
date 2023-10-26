@@ -44,7 +44,7 @@ const Contato = ({ id }: ContatoProps) => {
             >
               <ImgIcon
                 width="24px"
-                src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/icons/whatsapp-cheio.png"
+                src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/whatsapp-cheio.png"
               />
               <Paragrafo tipo="principal" fontWeight="500" margin="0">
                 (41)98442-4733
@@ -56,7 +56,7 @@ const Contato = ({ id }: ContatoProps) => {
             >
               <ImgIcon
                 width="24px"
-                src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/icons/linkedin-cheio.png"
+                src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/linkedin-cheio.png"
               />
               <Paragrafo tipo="principal" fontWeight="500" margin="0">
                 linkedin.com/corpweb
@@ -70,7 +70,7 @@ const Contato = ({ id }: ContatoProps) => {
             >
               <ImgIcon
                 width="24px"
-                src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/icons/email-cheio.png"
+                src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/email-cheio.png"
               />
               <Paragrafo tipo="principal" fontWeight="500" margin="0">
                 corpwebsites@outlook.com
@@ -82,7 +82,7 @@ const Contato = ({ id }: ContatoProps) => {
             >
               <ImgIcon
                 width="24px"
-                src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/M%C3%B3dulo%2020%20-%20Construindo%20e-mails%20com%20HTML/Aulas/images/icons/instagram-cheio.png"
+                src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/instagram-cheio.png"
               />
               <Paragrafo tipo="principal" fontWeight="500" margin="0">
                 @corpweb
