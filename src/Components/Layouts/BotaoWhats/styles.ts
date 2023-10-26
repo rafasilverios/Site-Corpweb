@@ -55,4 +55,9 @@ export const BotaoWhatsEstilo = styled.a`
       transform: translateX(3px);
     }
   }
+
+  @media (max-width: 820px) {
+    left: auto;
+    right: 16px;
+  }
 `
