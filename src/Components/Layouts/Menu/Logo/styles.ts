@@ -5,5 +5,6 @@ export const ImgLogo = styled.img`
 
   @media (max-width: 820px) {
     max-height: 48px;
+    width: auto;
   }
 `
