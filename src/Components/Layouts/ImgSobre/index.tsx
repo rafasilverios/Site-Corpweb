@@ -10,7 +10,7 @@ export type ImgProps = {
 const ImgSobre = ({ src, maxWidth, alt }: ImgProps) => {
   return (
     <ImgSobreEstilo maxWidth={maxWidth}>
-      <Img src={src} alt={alt} width="100%" height="auto" />
+      <Img src={src} alt={alt} width="675" height="450" />
     </ImgSobreEstilo>
   )
 }

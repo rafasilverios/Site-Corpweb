@@ -18,7 +18,7 @@ const Footer = ({ id }: FooterProps) => {
     <FooterEstilo id={id}>
       <Container padding="70px 32px">
         <Logo
-          width="auto"
+          width="69.98px"
           height="65px"
           alt="Logo da CorpWeb site para empresas"
           src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/logos/site%20para%20empresas%20logo%20fundo%20claro.png"
@@ -112,6 +112,7 @@ const Footer = ({ id }: FooterProps) => {
             <ImgIcon
               alt="Logo do Whatsapp"
               width="36px"
+              height="36px"
               src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/whatsapp-cheio.png"
             />
           </a>
@@ -123,6 +124,7 @@ const Footer = ({ id }: FooterProps) => {
             <ImgIcon
               alt="Logo do LinkedIn"
               width="36px"
+              height="36px"
               src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/linkedin-cheio.png"
             />
           </a>
@@ -134,6 +136,7 @@ const Footer = ({ id }: FooterProps) => {
             <ImgIcon
               alt="Logo e-mail"
               width="36px"
+              height="36px"
               src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/email-cheio.png"
             />
           </a>
@@ -145,6 +148,7 @@ const Footer = ({ id }: FooterProps) => {
             <ImgIcon
               alt="Logo do Instagram"
               width="36px"
+              height="36px"
               src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/instagram-cheio.png"
             />
           </a>

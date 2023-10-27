@@ -7,8 +7,8 @@ export type ImgIconProps = {
   alt: string
 }
 
-const ImgIcon = ({ src, width, alt }: ImgIconProps) => (
-  <ImgIconEstilo src={src} width={width} height="auto" alt={alt} />
+const ImgIcon = ({ src, width, height, alt }: ImgIconProps) => (
+  <ImgIconEstilo src={src} width={width} height={height} alt={alt} />
 )
 
 export default ImgIcon

@@ -15,6 +15,7 @@ const Vantagens = ({ id }: VantagensProps) => {
           <ImgIcon
             alt="Imagem vetorizada que ilustra a Visibilidade. Contém uma folha de papel com uma lupa"
             width="58px"
+            height="58px"
             src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/visibilidade.png"
           />
           <TituloH3
@@ -35,6 +36,7 @@ const Vantagens = ({ id }: VantagensProps) => {
           <ImgIcon
             alt="Imagem vetorizada que ilustra a disponibilidade online global. Contém um globo terrestre e um smartphone com duas flechas que formam um circulo ligando o globo e o smatphone"
             width="58px"
+            height="58px"
             src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/acesso-global.png"
           />
           <TituloH3
@@ -55,6 +57,7 @@ const Vantagens = ({ id }: VantagensProps) => {
           <ImgIcon
             alt="Imagem vetorizada que ilustra a credibilidade. Contém uma medalha de honra / qualidade"
             width="58px"
+            height="58px"
             src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/credibilidade.png"
           />
           <TituloH3
@@ -75,6 +78,7 @@ const Vantagens = ({ id }: VantagensProps) => {
           <ImgIcon
             alt="Imagem vetorizada que ilustra O marketing eficiente. Contém uim megafone com imagens que representam redes sociais saindo do seu alto falante"
             width="58px"
+            height="58px"
             src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/marketing-eficiente.png"
           />
           <TituloH3
@@ -95,6 +99,7 @@ const Vantagens = ({ id }: VantagensProps) => {
           <ImgIcon
             alt="Imagem vetorizada que ilustra a comunicação direta com os clientes. Contém dois balões de conversa"
             width="58px"
+            height="58px"
             src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/comunicacao-direta-3.png"
           />
           <TituloH3
@@ -115,6 +120,7 @@ const Vantagens = ({ id }: VantagensProps) => {
           <ImgIcon
             alt="Imagem vetorizada que ilustra a Análise de dados. Contém uma lupa ampliando os dados de um gráfico"
             width="58px"
+            height="58px"
             src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/analise-dados.png"
           />
           <TituloH3

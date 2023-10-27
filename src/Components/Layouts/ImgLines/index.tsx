@@ -9,7 +9,13 @@ export type ImgLinesProps = {
 }
 
 const ImgLines = ({ src, tipo, alt }: ImgLinesProps) => (
-  <ImgLinesEstilo src={src} tipo={tipo} alt={alt} width="150px" height="auto" />
+  <ImgLinesEstilo
+    src={src}
+    tipo={tipo}
+    alt={alt}
+    width="150px"
+    height="150px"
+  />
 )
 
 export default ImgLines

@@ -14,7 +14,7 @@ const ImgStack = ({ src, padding, alt }: ImgStackProps) => (
     padding={padding}
     alt={alt}
     width="132px"
-    height="auto"
+    height="132px"
   />
 )
 
