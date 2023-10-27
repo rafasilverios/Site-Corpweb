@@ -26,7 +26,7 @@ const Vantagens = ({ id }: VantagensProps) => {
           >
             Visibilidade Online
           </TituloH3>
-          <Paragrafo margin="0" tipo="principal" fontSize={16}>
+          <Paragrafo margin="0" tipo="principal">
             Um site permite que sua empresa seja encontrada facilmente por
             pessoas que buscam seus produtos, serviços ou informações online,
             aumentando a visibilidade da sua marca.
@@ -47,7 +47,7 @@ const Vantagens = ({ id }: VantagensProps) => {
           >
             Disponibilidade
           </TituloH3>
-          <Paragrafo margin="0" tipo="principal" fontSize={16}>
+          <Paragrafo margin="0" tipo="principal">
             Sua empresa estará disponível 24 horas por dia e 7 dias por semana
             através do site, o que significa que você pode alcançar um público
             muito maior, ultrapassando barreiras geográficas.
@@ -68,7 +68,7 @@ const Vantagens = ({ id }: VantagensProps) => {
           >
             Credibilidade
           </TituloH3>
-          <Paragrafo margin="0" tipo="principal" fontSize={16}>
+          <Paragrafo margin="0" tipo="principal">
             Ter um site profissional transmite credibilidade aos clientes em
             potencial. Um site bem projetado e informativo demonstra que sua
             empresa é séria e confiável.
@@ -89,7 +89,7 @@ const Vantagens = ({ id }: VantagensProps) => {
           >
             Marketing Eficiente
           </TituloH3>
-          <Paragrafo margin="0" tipo="principal" fontSize={16}>
+          <Paragrafo margin="0" tipo="principal">
             O Site é uma plataforma eficaz para marketing digital. Utilizamos
             estratégias de SEO, marketing de conteúdo e publicidade online para
             direcionar tráfego qualificado para o seu site.
@@ -110,7 +110,7 @@ const Vantagens = ({ id }: VantagensProps) => {
           >
             Comunicação Direta
           </TituloH3>
-          <Paragrafo margin="0" tipo="principal" fontSize={16}>
+          <Paragrafo margin="0" tipo="principal">
             Seu site é um canal de comunicação direta com seus clientes. Você
             pode disponibilizar informações sobre produtos, serviços, preços e
             formas de contato.
@@ -131,7 +131,7 @@ const Vantagens = ({ id }: VantagensProps) => {
           >
             Análise de Dados
           </TituloH3>
-          <Paragrafo margin="0" tipo="principal" fontSize={16}>
+          <Paragrafo margin="0" tipo="principal">
             Com o Google Analytics, você pode acompanhar o desempenho do seu
             site, entender o comportamento dos visitantes e fazer ajustes para
             melhorar a experiência dos usuários.

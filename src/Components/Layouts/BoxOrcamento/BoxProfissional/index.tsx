@@ -23,7 +23,6 @@ const BoxProfissional = () => {
         <Paragrafo
           margin="0"
           tipo="principal"
-          fontSize={16}
           fontWeight="300"
           paddingBottom="24px"
         >

@@ -49,7 +49,7 @@ const Sobre = ({ id }: SobreProps) => {
             >
               Site para sua Empresa
             </TituloH2>
-            <Paragrafo tipo="secundario" fontSize={16} margin="0">
+            <Paragrafo tipo="secundario" margin="0">
               Em nossa abordagem de criação de sites, priorizamos a sua visão e
               objetivos. Começamos por entender completamente as suas
               necessidades e metas. Isso nos permite criar um site personalizado
@@ -91,7 +91,7 @@ const Sobre = ({ id }: SobreProps) => {
             >
               Como construímos um Site para sua Empresa?
             </TituloH2>
-            <Paragrafo tipo="principal" fontSize={16} margin="0 65px 0 0">
+            <Paragrafo tipo="principal" margin="0 65px 0 0">
               Nós utilizamos as mais recentes tecnologias e as melhores
               linguagens de programação para que seu site se adeque a todas as
               plataformas sendo altamente responsivo, também extremamente rápido
@@ -151,7 +151,7 @@ const Sobre = ({ id }: SobreProps) => {
             >
               Sua empresa será vista e lembrada!
             </TituloH2>
-            <Paragrafo tipo="secundario" fontSize={16} margin="0">
+            <Paragrafo tipo="secundario" margin="0">
               Você sabia que mecanismos de busca, como o Google, são portas de
               entrada para milhões de potenciais clientes. Quando alguém busca
               por um produto ou serviço que sua empresa oferece, estar nas
