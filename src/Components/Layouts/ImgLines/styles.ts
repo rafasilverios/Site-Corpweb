@@ -7,8 +7,6 @@ export const ImgLinesEstilo = styled.img<ImgLinesProps>`
   right: ${(props) => (props.tipo === 'direitoCima' ? 0 : 'none')};
   bottom: ${(props) => (props.tipo === 'esquerdoBaixo' ? 0 : 'none')};
   left: ${(props) => (props.tipo === 'esquerdoBaixo' ? 0 : 'none')};
-  width: 150px;
-  height: auto;
 
   @media (max-width: 1180px) {
     display: none;

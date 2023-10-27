@@ -18,6 +18,8 @@ const Footer = ({ id }: FooterProps) => {
     <FooterEstilo id={id}>
       <Container padding="70px 32px">
         <Logo
+          width="auto"
+          height="65px"
           alt="Logo da CorpWeb site para empresas"
           src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/logos/site%20para%20empresas%20logo%20fundo%20claro.png"
         />

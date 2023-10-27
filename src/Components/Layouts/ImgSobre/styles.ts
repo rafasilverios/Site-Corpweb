@@ -12,8 +12,6 @@ export const ImgSobreEstilo = styled.div<ImgProps>`
 `
 
 export const Img = styled.img`
-  width: 100%;
-  height: auto;
   display: block;
 
   @media (max-width: 1660px) {
