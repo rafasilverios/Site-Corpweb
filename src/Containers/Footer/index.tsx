@@ -116,7 +116,7 @@ const Footer = ({ id }: FooterProps) => {
               src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/whatsapp-cheio.png"
             />
           </a>
-          <a
+          {/* <a
             target="_blank"
             href="https://www.linkedin.com/in/rafaelsilverio-eng-software/"
             rel="noreferrer"
@@ -127,7 +127,7 @@ const Footer = ({ id }: FooterProps) => {
               height="36px"
               src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/linkedin-cheio.png"
             />
-          </a>
+          </a> */}
           <a
             target="_blank"
             href="mailto:contato@corpweb.com.br"
@@ -140,7 +140,7 @@ const Footer = ({ id }: FooterProps) => {
               src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/email-cheio.png"
             />
           </a>
-          <a
+          {/* <a
             target="_blank"
             href="https://www.instagram.com/corpwebsite"
             rel="noreferrer"
@@ -151,7 +151,7 @@ const Footer = ({ id }: FooterProps) => {
               height="36px"
               src="https://raw.githubusercontent.com/rafasilverios/EBAC-Engenheiro-Front-end/main/Servidor%20de%20Imagens/CorpWeb/img/icons/instagram-cheio.png"
             />
-          </a>
+          </a> */}
         </DisplayIcons>
       </Container>
     </FooterEstilo>
