@@ -6,11 +6,11 @@ export const ContatoEstilo = styled.section`
   background-color: ${(props) => props.theme.corDeFundoBotao};
 `
 
-export const ConfigDisplayTexto = styled.div`
+export const ConfigDisplayTexto = styled.div<ContatoProps>`
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
-  gap: 8px;
+  gap: ${(props) => props.gap};
 
   @media (max-width: 820px) {
     padding: 0 16px;
@@ -19,12 +19,13 @@ export const ConfigDisplayTexto = styled.div`
 
 export const DisplayBotaoContato = styled.div<ContatoProps>`
   display: grid;
-  grid-template-columns: repeat(2, max-content);
+  // grid-template-columns: repeat(2, max-content);
+  grid-template-columns: 1fr;
   align-items: start;
   margin-bottom: ${(props) => props.marginBottom};
-  gap: 8px;
+  // gap: 8px;
 
-  @media (max-width: 470px) {
-    grid-template-columns: 1fr;
-  }
+  // @media (max-width: 470px) {
+  //   grid-template-columns: 1fr;
+  // }
 `

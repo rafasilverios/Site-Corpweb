@@ -12,19 +12,21 @@ import {
 export type ContatoProps = {
   id?: string
   marginBottom?: string
+  gap?: string
 }
 
 const Contato = ({ id }: ContatoProps) => {
   return (
     <ContatoEstilo id={id}>
       <ContainerMaior>
-        <ConfigDisplayTexto>
+        <ConfigDisplayTexto gap="0">
           <ConfigDisplayTexto>
             <TituloH4
               tipo="principal"
               fontSize={48}
               fontWeight={500}
               padding="0 0 16px 0"
+              margin="0"
             >
               Ficou com alguma dúvida?
             </TituloH4>
@@ -36,7 +38,7 @@ const Contato = ({ id }: ContatoProps) => {
             </Paragrafo>
           </ConfigDisplayTexto>
         </ConfigDisplayTexto>
-        <ConfigDisplayTexto>
+        <ConfigDisplayTexto gap="8px">
           <DisplayBotaoContato>
             <BotaoContato
               href="https://wa.me/5541984424733?text=Ol%C3%A1%2C+tudo+bem%3F%0AEstou+interessado+em+desenvolver+um+site+para+minha+empresa.+Seria+poss%C3%ADvel+fornecer+mais+informa%C3%A7%C3%B5es+sobre+os+detalhes+deste+plano+e+como+ele+pode+beneficiar+o+meu+neg%C3%B3cio%3F"
@@ -52,7 +54,7 @@ const Contato = ({ id }: ContatoProps) => {
                 (41)98442-4733
               </Paragrafo>
             </BotaoContato>
-            <BotaoContato
+            {/* <BotaoContato
               href="https://www.linkedin.com/in/rafaelsilverio-eng-software/"
               target="_blank"
             >
@@ -65,7 +67,7 @@ const Contato = ({ id }: ContatoProps) => {
               <Paragrafo tipo="principal" fontWeight="500" margin="0">
                 linkedin.com/corpweb
               </Paragrafo>
-            </BotaoContato>
+            </BotaoContato> */}
           </DisplayBotaoContato>
           <DisplayBotaoContato>
             <BotaoContato
@@ -82,7 +84,7 @@ const Contato = ({ id }: ContatoProps) => {
                 corpwebsites@outlook.com
               </Paragrafo>
             </BotaoContato>
-            <BotaoContato
+            {/* <BotaoContato
               href="https://www.instagram.com/corpwebsite"
               target="_blank"
             >
@@ -95,7 +97,7 @@ const Contato = ({ id }: ContatoProps) => {
               <Paragrafo tipo="principal" fontWeight="500" margin="0">
                 @corpweb
               </Paragrafo>
-            </BotaoContato>
+            </BotaoContato> */}
           </DisplayBotaoContato>
         </ConfigDisplayTexto>
       </ContainerMaior>
