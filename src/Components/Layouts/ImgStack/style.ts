@@ -7,6 +7,7 @@ export const ImgStackEstilo = styled.img<ImgStackProps>`
 
   @media (max-width: 768px) {
     width: 100px;
+    height: 100px;
     margin-top: 0;
   }
 `
