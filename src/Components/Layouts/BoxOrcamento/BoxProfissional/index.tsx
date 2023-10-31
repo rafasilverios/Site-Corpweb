@@ -26,7 +26,8 @@ const BoxProfissional = () => {
           fontWeight="300"
           paddingBottom="24px"
         >
-          Escolha entre um dos modelos de layouts pré criados
+          Escolha entre um dos modelos de layouts pré criados ou um design
+          exclusivo
         </Paragrafo>
         <BoxItem>
           <img
