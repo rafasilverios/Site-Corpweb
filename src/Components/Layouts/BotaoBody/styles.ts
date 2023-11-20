@@ -19,7 +19,8 @@ export const BotaoEstilo = styled.a<BotaoProps>`
   transition: all 500ms ease;
 
   &:hover {
-    transform: scale(1.02);
+    background-color: #ffa928;
+    color: #fff;
   }
 
   @media (max-width: 1300px) {
