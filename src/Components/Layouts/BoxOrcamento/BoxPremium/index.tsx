@@ -103,7 +103,7 @@ const BoxPremium = () => {
             height={20}
           />
           <Paragrafo margin="0" tipo="principal" paddingBottom="10px">
-            Provas de Layout adequar o site as suas
+            Provas de Layout para adequar o site as suas necessidades
           </Paragrafo>
         </BoxItem>
         <BoxItem>
